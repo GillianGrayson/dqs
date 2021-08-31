@@ -1,13 +1,13 @@
 import pandas as pd
 import plotly.graph_objects as go
-from ndm.plot.layout import add_layout
-from ndm.plot.save import save_figure
+from scripts.netket.plot.layout import add_layout
+from scripts.netket.plot.save import save_figure
 
 
 # Model params
 model = 'mbl'
 N = 8
-seed = 2
+seed = 3
 W = 1.0
 U = 1.0
 J = 1.0
@@ -19,22 +19,20 @@ path = f"/media/sf_Work/dl/netket/{model}/N({N})_rnd({seed})_H({W:0.4f}_{U:0.4f}
 # Ansatz params
 
 params = [
-    #{"alpha": 2, "beta": 2, 'n_samples': 1000, 'n_samples_diag': 1000},
-    {"alpha": 2, "beta": 2, 'n_samples': 25000, 'n_samples_diag': 10000},
-    #{"alpha": 2, "beta": 2, 'n_samples': 5000, 'n_samples_diag': 5000}
+    {"alpha": 2, "beta": 2, 'n_samples': 5000, 'n_iter': 1000},
 ]
 
 fig_ldagl = go.Figure()
 fig_diff_norm = go.Figure()
 for p in params:
-    df = pd.read_excel(f"{path}/metrics_size({p['alpha']}_{p['beta']})_samples({p['n_samples']}_{p['n_samples_diag']}).xlsx")
+    df = pd.read_excel(f"{path}/NDM({p['alpha']}_{p['beta']}_{p['n_samples']}_{p['n_iter']}).xlsx")
 
     fig_ldagl.add_trace(
         go.Scatter(
             x=df['iteration'].values,
             y=df['ldagl_mean'].values,
             showlegend=True,
-            name=f"alpha={p['alpha']} beta={p['beta']} nsamp={p['n_samples']} nsampdiag={p['n_samples_diag']}",
+            name=f"alpha={p['alpha']} beta={p['beta']} nsamp={p['n_samples']}",
             mode="lines",
         )
     )
@@ -44,7 +42,7 @@ for p in params:
             x=df['iteration'].values,
             y=df['norm_rho_diff'].values,
             showlegend=True,
-            name=f"alpha={p['alpha']} beta={p['beta']} nsamp={p['n_samples']} nsampdiag={p['n_samples_diag']}",
+            name=f"alpha={p['alpha']} beta={p['beta']} nsamp={p['n_samples']}",
             mode="lines",
         )
     )

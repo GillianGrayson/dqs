@@ -10,7 +10,7 @@ from tqdm import tqdm
 model = 'mbl'
 N = 8
 seed = 3
-W = 1.0
+W = 15.0
 U = 1.0
 J = 1.0
 dt = 1
@@ -20,7 +20,6 @@ gamma = 0.1
 beta = 2
 alpha = 2
 n_samples = 5000
-n_samples_diag = 2000
 n_iter = 1000
 
 np.random.seed(seed)
@@ -32,11 +31,8 @@ if not os.path.exists(f"{save_path}"):
 
 energies = np.random.uniform(-1.0, 1.0, N)
 
-g = nk.graph.Hypercube(N, n_dim=1, pbc=False)
-
 # Hilbert space
-#hi = Fock(n_max=1, n_particles=N//2, N=N)
-hi = Fock(n_max=1, n_particles=N//2, N=g.n_nodes)
+hi = Fock(n_max=1, n_particles=N//2, N=N)
 
 # The Hamiltonian
 ha = nk.operator.LocalOperator(hi)
@@ -67,16 +63,17 @@ ndm = nk.models.NDM(
     beta=beta,
 )
 
-# Metropolis Local Sampling
-sa = nk.sampler.MetropolisLocal(lind.hilbert)
-#sa = nk.sampler.MetropolisExchange(lind.hilbert, graph=g)
+# Metropolis Sampling
+graph = nk.graph.Hypercube(N, n_dim=1, pbc=False)
+sa_graph = nk.graph.disjoint_union(graph, graph)
+sa = nk.sampler.MetropolisExchange(lind.hilbert, graph=sa_graph)
 
 # Optimizer
 op = nk.optimizer.Sgd(0.01)
 sr = nk.optimizer.SR(diag_shift=0.01)
 
 # Variational state
-vs = nk.vqs.MCMixedState(sa, ndm, n_samples=n_samples, n_samples_diag=n_samples_diag)
+vs = nk.vqs.MCMixedState(sa, ndm, n_samples=n_samples)
 vs.init_parameters(nk.nn.initializers.normal(stddev=0.01))
 
 # Driver
@@ -92,7 +89,6 @@ metrics_dict = {
 
 # Calculate exact rho
 rho_exact = nk.exact.steady_state(lind, method="iterative", sparse=True, tol=1e-10)
-#rho_exact = nk.exact.steady_state(lind)
 
 for it in tqdm(range(n_iter)):
     out = ss.run(n_iter=1)
@@ -105,4 +101,4 @@ for it in tqdm(range(n_iter)):
     metrics_dict['norm_rho_diff_conj'].append(la.norm(rho_diff_conj))
 
 metrics_df = pd.DataFrame(metrics_dict)
-metrics_df.to_excel(f"{save_path}/metrics_size({alpha}_{beta})_samples({n_samples}_{n_samples_diag}).xlsx", index=False)
+metrics_df.to_excel(f"{save_path}/NDM({alpha}_{beta}_{n_samples}_{n_iter}).xlsx", index=False)
