@@ -1,0 +1,4 @@
+WARNING:absl:No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+seed = 1
+Starting iterative solver...
+Converged trace is  (1.0000000000000462+3.572794897309396e-14j)

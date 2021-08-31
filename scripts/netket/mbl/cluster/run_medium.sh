@@ -1,7 +1,8 @@
 #!/bin/bash
 #SBATCH --cpus-per-task=1
-#SBATCH --time=2:00:00
+#SBATCH --time=48:00:00
 #SBATCH --output=/home/denysov/yusipov/qs/scripts/netket/mbl/cluster/output/%j.out
+#SBATCH --partition=medium
 #SBATCH --mem=4000
 
 scratch=/scratch/denysov/yusipov/qs/netket/$1

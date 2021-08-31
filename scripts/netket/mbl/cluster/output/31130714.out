@@ -1,0 +1,21 @@
+WARNING:absl:No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+seed = 1
+Traceback (most recent call last):
+  File "/home/denysov/yusipov/qs/scripts/netket/mbl/cluster/ndm_vs_exact.py", line 96, in <module>
+    rho_exact = nk.exact.steady_state(lind, method="iterative", sparse=True, tol=1e-10)
+  File "/home/denysov/.conda/envs/py38/lib/python3.8/site-packages/netket/exact.py", line 191, in steady_state
+    L = lindblad.to_linear_operator(sparse=sparse, append_trace=True)
+  File "/home/denysov/.conda/envs/py38/lib/python3.8/site-packages/netket/operator/_local_liouvillian.py", line 390, in to_linear_operator
+    J_ops = [j.to_sparse() for j in self.jump_operators]
+  File "/home/denysov/.conda/envs/py38/lib/python3.8/site-packages/netket/operator/_local_liouvillian.py", line 390, in <listcomp>
+    J_ops = [j.to_sparse() for j in self.jump_operators]
+  File "/home/denysov/.conda/envs/py38/lib/python3.8/site-packages/netket/operator/_abstract_operator.py", line 259, in to_sparse
+    numbers = hilb.states_to_numbers(x_prime)
+  File "/home/denysov/.conda/envs/py38/lib/python3.8/site-packages/netket/hilbert/discrete_hilbert.py", line 167, in states_to_numbers
+    out = self._states_to_numbers(states_r, out=out.reshape(-1))
+  File "/home/denysov/.conda/envs/py38/lib/python3.8/site-packages/netket/hilbert/homogeneous.py", line 144, in _states_to_numbers
+    out[:] = _to_constrained_numbers_kernel(
+  File "/home/denysov/.conda/envs/py38/lib/python3.8/site-packages/numba/np/arraymath.py", line 618, in array_max_impl
+    raise ValueError(MSG)
+ValueError: zero-size array to reduction operation maximum which has no identity
+srun: error: gaspra01: task 0: Exited with exit code 1

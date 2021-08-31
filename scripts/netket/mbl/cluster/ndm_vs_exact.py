@@ -8,21 +8,21 @@ from numpy import linalg as la
 
 config_df = pd.read_excel('config.xlsx', index_col='experiment_id')
 
-N = config_df.at[0, 'N']
-W = config_df.at[0, 'W']
-U = config_df.at[0, 'U']
-J = config_df.at[0, 'J']
-diss_type = config_df.at[0, 'diss_type']
-diss_gamma = config_df.at[0, 'diss_gamma']
+N = int(config_df.at[0, 'N'])
+W = float(config_df.at[0, 'W'])
+U = float(config_df.at[0, 'U'])
+J = float(config_df.at[0, 'J'])
+diss_type = int(config_df.at[0, 'diss_type'])
+diss_gamma = float(config_df.at[0, 'diss_gamma'])
 
-seed_start = config_df.at[0, 'seed_start']
-seed_shift = config_df.at[0, 'seed_shift']
-seed_num = config_df.at[0, 'seed_num']
+seed_start = int(config_df.at[0, 'seed_start'])
+seed_shift = int(config_df.at[0, 'seed_shift'])
+seed_num = int(config_df.at[0, 'seed_num'])
 
-alpha = config_df.at[0, 'alpha']
-beta = config_df.at[0, 'beta']
-n_samples = config_df.at[0, 'n_samples']
-n_iter = config_df.at[0, 'n_iter']
+alpha = float(config_df.at[0, 'alpha'])
+beta = float(config_df.at[0, 'beta'])
+n_samples = int(config_df.at[0, 'n_samples'])
+n_iter = int(config_df.at[0, 'n_iter'])
 
 result_df = pd.DataFrame(data=np.zeros(shape=(n_iter, seed_num)))
 
@@ -95,13 +95,13 @@ for seed in seeds:
     # Calculate exact rho
     rho_exact = nk.exact.steady_state(lind, method="iterative", sparse=True, tol=1e-10)
 
-    for it in tqdm(range(n_iter)):
-        out = ss.run(n_iter=1)
-        metrics_df.loc[it + 1, f"ldagl_mean_{W:d}"] = ss.ldagl.mean
+    for it in tqdm(range(n_iter), mininterval=300.0):
+        out = ss.run(n_iter=1, show_progress=False)
+        metrics_df.loc[it + 1, f"ldagl_mean_{seed:d}"] = ss.ldagl.mean
         rho_neural = np.array(ss.state.to_matrix())
         rho_diff = rho_exact - rho_neural
         rho_diff_conj = rho_exact - rho_neural.conjugate()
-        metrics_df.loc[it + 1, f"norm_rho_diff_{W:d}"] = la.norm(rho_diff)
-        metrics_df.loc[it + 1, f"norm_rho_diff_conj_{W:d}"] = la.norm(rho_diff_conj)
+        metrics_df.loc[it + 1, f"norm_rho_diff_{seed:d}"] = la.norm(rho_diff)
+        metrics_df.loc[it + 1, f"norm_rho_diff_conj_{seed:d}"] = la.norm(rho_diff_conj)
 
     metrics_df.to_excel(f"metrics_seeds({seed_start}_{seed_shift}_{seed_num}).xlsx", index=True)

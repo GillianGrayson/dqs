@@ -17,7 +17,7 @@ diss_gamma = 0.1
 
 seed_start = 1
 seed_shift = 1
-seed_num = 10
+seed_num = 1
 
 alpha = 2
 beta = 2
@@ -28,7 +28,7 @@ for W_id, W in enumerate(Ws):
     print(f"W={W:0.4f}")
 
     curr_path = path \
-                + '/' + f"NDM({alpha:d}_{beta:d}_{n_samples:d}_{n_iter:%d})" \
+                + '/' + f"NDM({alpha:d}_{beta:d}_{n_samples:d}_{n_iter:d})" \
                 + '/' + f"H({W:0.4f}_{U:0.4f}_{J:0.4f})_D({diss_type:d}_{diss_gamma:0.4f})"
 
     config_dict = {'experiment_id': [0]}
@@ -57,6 +57,6 @@ for W_id, W in enumerate(Ws):
         config_df.to_excel(f"{curr_path}/config.xlsx", index=True)
 
         if run_type == 'short':
-            os.system('sbatch run_short.sh ' + curr_path)
+            os.system(f"sbatch run_short.sh \"{curr_path}\"")
         elif run_type == 'medium':
-            os.system('sbatch run_medium.sh ' + curr_path)
+            os.system(f"sbatch run_medium.sh \"{curr_path}\"")
