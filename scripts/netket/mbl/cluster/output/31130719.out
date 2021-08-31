@@ -1,1270 +1,0 @@
-WARNING:absl:No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
-seed = 1
-Starting iterative solver...
-Converged trace is  (0.9999999999998374+8.048727131850246e-16j)
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  0%|          | 0/1000 [00:00<?, ?it/s]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:26<?, ?it/s, LdagL=8.19 ± 0.15 [σ²=128.40]][A100%|██████████| 1/1 [00:00<00:00, 10.27it/s, LdagL=8.19 ± 0.15 [σ²=128.40]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  0%|          | 1/1000 [00:27<7:40:51, 27.68s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=8.47 ± 0.15 [σ²=131.85]][A100%|██████████| 1/1 [00:00<00:00, 5667.98it/s, LdagL=8.47 ± 0.15 [σ²=131.85]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  0%|          | 2/1000 [00:32<3:59:23, 14.39s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=8.33 ± 0.15 [σ²=130.56]][A100%|██████████| 1/1 [00:00<00:00, 5983.32it/s, LdagL=8.33 ± 0.15 [σ²=130.56]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  0%|          | 3/1000 [00:37<2:48:31, 10.14s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=8.13 ± 0.14 [σ²=120.76]][A100%|██████████| 1/1 [00:00<00:00, 5924.16it/s, LdagL=8.13 ± 0.14 [σ²=120.76]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  0%|          | 4/1000 [00:42<2:15:23,  8.16s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=7.75 ± 0.11 [σ²=109.06]][A100%|██████████| 1/1 [00:00<00:00, 5184.55it/s, LdagL=7.75 ± 0.11 [σ²=109.06]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  0%|          | 5/1000 [00:48<1:57:18,  7.07s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=7.31 ± 0.13 [σ²=93.56]][A100%|██████████| 1/1 [00:00<00:00, 3833.92it/s, LdagL=7.31 ± 0.13 [σ²=93.56]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  1%|          | 6/1000 [00:53<1:46:41,  6.44s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=6.84 ± 0.12 [σ²=84.76]][A100%|██████████| 1/1 [00:00<00:00, 5706.54it/s, LdagL=6.84 ± 0.12 [σ²=84.76]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  1%|          | 7/1000 [00:58<1:40:14,  6.06s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=6.30 ± 0.11 [σ²=72.24]][A100%|██████████| 1/1 [00:00<00:00, 6297.75it/s, LdagL=6.30 ± 0.11 [σ²=72.24]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  1%|          | 8/1000 [01:03<1:36:11,  5.82s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=5.636 ± 0.091 [σ²=64.318]][A100%|██████████| 1/1 [00:00<00:00, 5023.12it/s, LdagL=5.636 ± 0.091 [σ²=64.318]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  1%|          | 9/1000 [01:09<1:33:34,  5.67s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=5.13 ± 0.10 [σ²=55.75]][A100%|██████████| 1/1 [00:00<00:00, 3533.53it/s, LdagL=5.13 ± 0.10 [σ²=55.75]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  1%|          | 10/1000 [01:14<1:31:58,  5.57s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=4.658 ± 0.072 [σ²=47.337]][A100%|██████████| 1/1 [00:00<00:00, 5849.80it/s, LdagL=4.658 ± 0.072 [σ²=47.337]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  1%|          | 11/1000 [01:20<1:31:00,  5.52s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=3.994 ± 0.087 [σ²=34.706]][A100%|██████████| 1/1 [00:00<00:00, 6017.65it/s, LdagL=3.994 ± 0.087 [σ²=34.706]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  1%|          | 12/1000 [01:25<1:30:19,  5.49s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=3.702 ± 0.081 [σ²=31.198]][A100%|██████████| 1/1 [00:00<00:00, 5090.17it/s, LdagL=3.702 ± 0.081 [σ²=31.198]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  1%|▏         | 13/1000 [01:30<1:30:02,  5.47s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=3.426 ± 0.058 [σ²=28.546]][A100%|██████████| 1/1 [00:00<00:00, 3371.63it/s, LdagL=3.426 ± 0.058 [σ²=28.546]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  1%|▏         | 14/1000 [01:36<1:29:57,  5.47s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=3.035 ± 0.067 [σ²=23.718]][A100%|██████████| 1/1 [00:00<00:00, 5447.15it/s, LdagL=3.035 ± 0.067 [σ²=23.718]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  2%|▏         | 15/1000 [01:41<1:29:54,  5.48s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=2.800 ± 0.062 [σ²=21.245]][A100%|██████████| 1/1 [00:00<00:00, 6087.52it/s, LdagL=2.800 ± 0.062 [σ²=21.245]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  2%|▏         | 16/1000 [01:47<1:29:52,  5.48s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=2.525 ± 0.053 [σ²=17.944]][A100%|██████████| 1/1 [00:00<00:00, 6123.07it/s, LdagL=2.525 ± 0.053 [σ²=17.944]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  2%|▏         | 17/1000 [01:52<1:29:56,  5.49s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=2.265 ± 0.057 [σ²=13.213]][A100%|██████████| 1/1 [00:00<00:00, 6195.43it/s, LdagL=2.265 ± 0.057 [σ²=13.213]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  2%|▏         | 18/1000 [01:58<1:29:59,  5.50s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=2.119 ± 0.052 [σ²=12.462]][A100%|██████████| 1/1 [00:00<00:00, 6043.67it/s, LdagL=2.119 ± 0.052 [σ²=12.462]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  2%|▏         | 19/1000 [02:03<1:30:05,  5.51s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=1.937 ± 0.050 [σ²=10.126]][A100%|██████████| 1/1 [00:00<00:00, 6026.30it/s, LdagL=1.937 ± 0.050 [σ²=10.126]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  2%|▏         | 20/1000 [02:09<1:30:09,  5.52s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=1.843 ± 0.051 [σ²=9.260]][A100%|██████████| 1/1 [00:00<00:00, 4888.47it/s, LdagL=1.843 ± 0.051 [σ²=9.260]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  2%|▏         | 21/1000 [02:14<1:30:15,  5.53s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=1.722 ± 0.046 [σ²=8.474]][A100%|██████████| 1/1 [00:00<00:00, 6052.39it/s, LdagL=1.722 ± 0.046 [σ²=8.474]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  2%|▏         | 22/1000 [02:20<1:30:18,  5.54s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=1.593 ± 0.044 [σ²=7.317]][A100%|██████████| 1/1 [00:00<00:00, 3708.49it/s, LdagL=1.593 ± 0.044 [σ²=7.317]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  2%|▏         | 23/1000 [02:26<1:30:29,  5.56s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=1.528 ± 0.034 [σ²=6.601]][A100%|██████████| 1/1 [00:00<00:00, 6034.97it/s, LdagL=1.528 ± 0.034 [σ²=6.601]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  2%|▏         | 24/1000 [02:31<1:30:33,  5.57s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=1.435 ± 0.026 [σ²=5.535]][A100%|██████████| 1/1 [00:00<00:00, 6052.39it/s, LdagL=1.435 ± 0.026 [σ²=5.535]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  2%|▎         | 25/1000 [02:37<1:30:28,  5.57s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=1.430 ± 0.022 [σ²=5.982]][A100%|██████████| 1/1 [00:00<00:00, 5966.29it/s, LdagL=1.430 ± 0.022 [σ²=5.982]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  3%|▎         | 26/1000 [02:42<1:30:32,  5.58s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=1.341 ± 0.038 [σ²=5.360]][A100%|██████████| 1/1 [00:00<00:00, 6105.25it/s, LdagL=1.341 ± 0.038 [σ²=5.360]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  3%|▎         | 27/1000 [02:48<1:30:32,  5.58s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=1.180 ± 0.026 [σ²=3.591]][A100%|██████████| 1/1 [00:00<00:00, 6105.25it/s, LdagL=1.180 ± 0.026 [σ²=3.591]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  3%|▎         | 28/1000 [02:54<1:30:33,  5.59s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=1.172 ± 0.031 [σ²=4.002]][A100%|██████████| 1/1 [00:00<00:00, 5974.79it/s, LdagL=1.172 ± 0.031 [σ²=4.002]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  3%|▎         | 29/1000 [02:59<1:30:37,  5.60s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=1.089 ± 0.028 [σ²=3.425]][A100%|██████████| 1/1 [00:00<00:00, 5059.47it/s, LdagL=1.089 ± 0.028 [σ²=3.425]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  3%|▎         | 30/1000 [03:05<1:30:48,  5.62s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=1.094 ± 0.024 [σ²=3.755]][A100%|██████████| 1/1 [00:00<00:00, 3809.54it/s, LdagL=1.094 ± 0.024 [σ²=3.755]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  3%|▎         | 31/1000 [03:11<1:30:53,  5.63s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=1.042 ± 0.027 [σ²=3.355]][A100%|██████████| 1/1 [00:00<00:00, 5983.32it/s, LdagL=1.042 ± 0.027 [σ²=3.355]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  3%|▎         | 32/1000 [03:16<1:31:01,  5.64s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=1.039 ± 0.024 [σ²=3.296]][A100%|██████████| 1/1 [00:00<00:00, 5957.82it/s, LdagL=1.039 ± 0.024 [σ²=3.296]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  3%|▎         | 33/1000 [03:22<1:30:57,  5.64s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.907 ± 0.019 [σ²=2.317]][A100%|██████████| 1/1 [00:00<00:00, 4951.95it/s, LdagL=0.907 ± 0.019 [σ²=2.317]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  3%|▎         | 34/1000 [03:28<1:30:54,  5.65s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.957 ± 0.035 [σ²=2.854]][A100%|██████████| 1/1 [00:00<00:00, 3653.57it/s, LdagL=0.957 ± 0.035 [σ²=2.854]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  4%|▎         | 35/1000 [03:33<1:30:56,  5.65s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.844 ± 0.017 [σ²=2.011]][A100%|██████████| 1/1 [00:00<00:00, 6043.67it/s, LdagL=0.844 ± 0.017 [σ²=2.011]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  4%|▎         | 36/1000 [03:39<1:30:54,  5.66s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.848 ± 0.020 [σ²=2.608]][A100%|██████████| 1/1 [00:00<00:00, 5940.94it/s, LdagL=0.848 ± 0.020 [σ²=2.608]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  4%|▎         | 37/1000 [03:44<1:30:49,  5.66s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.779 ± 0.020 [σ²=1.884]][A100%|██████████| 1/1 [00:00<00:00, 5210.32it/s, LdagL=0.779 ± 0.020 [σ²=1.884]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  4%|▍         | 38/1000 [03:50<1:30:42,  5.66s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.756 ± 0.019 [σ²=1.741]][A100%|██████████| 1/1 [00:00<00:00, 3672.77it/s, LdagL=0.756 ± 0.019 [σ²=1.741]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  4%|▍         | 39/1000 [03:56<1:30:40,  5.66s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.717 ± 0.020 [σ²=1.847]][A100%|██████████| 1/1 [00:00<00:00, 6159.04it/s, LdagL=0.717 ± 0.020 [σ²=1.847]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  4%|▍         | 40/1000 [04:02<1:30:44,  5.67s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.697 ± 0.017 [σ²=1.498]][A100%|██████████| 1/1 [00:00<00:00, 6061.13it/s, LdagL=0.697 ± 0.017 [σ²=1.498]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  4%|▍         | 41/1000 [04:07<1:30:35,  5.67s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.680 ± 0.019 [σ²=1.654]][A100%|██████████| 1/1 [00:00<00:00, 5223.29it/s, LdagL=0.680 ± 0.019 [σ²=1.654]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  4%|▍         | 42/1000 [04:13<1:30:27,  5.67s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.657 ± 0.018 [σ²=1.525]][A100%|██████████| 1/1 [00:00<00:00, 3609.56it/s, LdagL=0.657 ± 0.018 [σ²=1.525]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  4%|▍         | 43/1000 [04:19<1:30:25,  5.67s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.639 ± 0.012 [σ²=1.226]][A100%|██████████| 1/1 [00:00<00:00, 5915.80it/s, LdagL=0.639 ± 0.012 [σ²=1.226]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  4%|▍         | 44/1000 [04:24<1:30:23,  5.67s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.608 ± 0.017 [σ²=1.118]][A100%|██████████| 1/1 [00:00<00:00, 6052.39it/s, LdagL=0.608 ± 0.017 [σ²=1.118]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  4%|▍         | 45/1000 [04:30<1:30:19,  5.68s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.580 ± 0.012 [σ²=1.018]][A100%|██████████| 1/1 [00:00<00:00, 5017.11it/s, LdagL=0.580 ± 0.012 [σ²=1.018]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  5%|▍         | 46/1000 [04:36<1:30:14,  5.68s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.593 ± 0.015 [σ²=1.207]][A100%|██████████| 1/1 [00:00<00:00, 3869.28it/s, LdagL=0.593 ± 0.015 [σ²=1.207]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  5%|▍         | 47/1000 [04:41<1:30:11,  5.68s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.552 ± 0.014 [σ²=1.092]][A100%|██████████| 1/1 [00:00<00:00, 5833.52it/s, LdagL=0.552 ± 0.014 [σ²=1.092]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  5%|▍         | 48/1000 [04:47<1:30:07,  5.68s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.504 ± 0.014 [σ²=0.789]][A100%|██████████| 1/1 [00:00<00:00, 6123.07it/s, LdagL=0.504 ± 0.014 [σ²=0.789]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  5%|▍         | 49/1000 [04:53<1:30:07,  5.69s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.510 ± 0.013 [σ²=0.927]][A100%|██████████| 1/1 [00:00<00:00, 6114.15it/s, LdagL=0.510 ± 0.013 [σ²=0.927]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  5%|▌         | 50/1000 [04:58<1:29:57,  5.68s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.509 ± 0.011 [σ²=0.886]][A100%|██████████| 1/1 [00:00<00:00, 3358.13it/s, LdagL=0.509 ± 0.011 [σ²=0.886]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  5%|▌         | 51/1000 [05:04<1:30:01,  5.69s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.4836 ± 0.0097 [σ²=0.7633]][A100%|██████████| 1/1 [00:00<00:00, 5468.45it/s, LdagL=0.4836 ± 0.0097 [σ²=0.7633]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  5%|▌         | 52/1000 [05:10<1:29:54,  5.69s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.491 ± 0.013 [σ²=0.941]][A100%|██████████| 1/1 [00:00<00:00, 6186.29it/s, LdagL=0.491 ± 0.013 [σ²=0.941]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  5%|▌         | 53/1000 [05:15<1:29:58,  5.70s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.484 ± 0.012 [σ²=0.923]][A100%|██████████| 1/1 [00:00<00:00, 6213.78it/s, LdagL=0.484 ± 0.012 [σ²=0.923]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  5%|▌         | 54/1000 [05:21<1:29:49,  5.70s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.458 ± 0.011 [σ²=0.768]][A100%|██████████| 1/1 [00:00<00:00, 3344.74it/s, LdagL=0.458 ± 0.011 [σ²=0.768]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  6%|▌         | 55/1000 [05:27<1:29:43,  5.70s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.4424 ± 0.0089 [σ²=0.6173]][A100%|██████████| 1/1 [00:00<00:00, 5817.34it/s, LdagL=0.4424 ± 0.0089 [σ²=0.6173]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  6%|▌         | 56/1000 [05:33<1:29:41,  5.70s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.4270 ± 0.0092 [σ²=0.7221]][A100%|██████████| 1/1 [00:00<00:00, 6069.90it/s, LdagL=0.4270 ± 0.0092 [σ²=0.7221]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  6%|▌         | 57/1000 [05:38<1:29:37,  5.70s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.4103 ± 0.0094 [σ²=0.6376]][A100%|██████████| 1/1 [00:00<00:00, 6096.37it/s, LdagL=0.4103 ± 0.0094 [σ²=0.6376]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  6%|▌         | 58/1000 [05:44<1:29:24,  5.69s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.417 ± 0.011 [σ²=0.713]][A100%|██████████| 1/1 [00:00<00:00, 5023.12it/s, LdagL=0.417 ± 0.011 [σ²=0.713]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  6%|▌         | 59/1000 [05:50<1:29:19,  5.70s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.385 ± 0.010 [σ²=0.661]][A100%|██████████| 1/1 [00:00<00:00, 3653.57it/s, LdagL=0.385 ± 0.010 [σ²=0.661]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  6%|▌         | 60/1000 [05:55<1:29:17,  5.70s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.383 ± 0.012 [σ²=0.619]][A100%|██████████| 1/1 [00:00<00:00, 5974.79it/s, LdagL=0.383 ± 0.012 [σ²=0.619]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  6%|▌         | 61/1000 [06:01<1:29:18,  5.71s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.387 ± 0.010 [σ²=0.671]][A100%|██████████| 1/1 [00:00<00:00, 6141.00it/s, LdagL=0.387 ± 0.010 [σ²=0.671]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  6%|▌         | 62/1000 [06:07<1:29:04,  5.70s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.3578 ± 0.0089 [σ²=0.4749]][A100%|██████████| 1/1 [00:00<00:00, 4723.32it/s, LdagL=0.3578 ± 0.0089 [σ²=0.4749]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  6%|▋         | 63/1000 [06:12<1:28:54,  5.69s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.3709 ± 0.0083 [σ²=0.5511]][A100%|██████████| 1/1 [00:00<00:00, 3640.89it/s, LdagL=0.3709 ± 0.0083 [σ²=0.5511]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  6%|▋         | 64/1000 [06:18<1:28:48,  5.69s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.3568 ± 0.0086 [σ²=0.5718]][A100%|██████████| 1/1 [00:00<00:00, 6052.39it/s, LdagL=0.3568 ± 0.0086 [σ²=0.5718]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  6%|▋         | 65/1000 [06:24<1:28:43,  5.69s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.342 ± 0.010 [σ²=0.505]][A100%|██████████| 1/1 [00:00<00:00, 5809.29it/s, LdagL=0.342 ± 0.010 [σ²=0.505]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  7%|▋         | 66/1000 [06:29<1:28:41,  5.70s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.3215 ± 0.0079 [σ²=0.3785]][A100%|██████████| 1/1 [00:00<00:00, 4999.17it/s, LdagL=0.3215 ± 0.0079 [σ²=0.3785]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  7%|▋         | 67/1000 [06:35<1:28:37,  5.70s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.3454 ± 0.0083 [σ²=0.5813]][A100%|██████████| 1/1 [00:00<00:00, 3883.61it/s, LdagL=0.3454 ± 0.0083 [σ²=0.5813]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  7%|▋         | 68/1000 [06:41<1:28:36,  5.70s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.335 ± 0.011 [σ²=0.494]][A100%|██████████| 1/1 [00:00<00:00, 6168.09it/s, LdagL=0.335 ± 0.011 [σ²=0.494]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  7%|▋         | 69/1000 [06:47<1:28:29,  5.70s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.3061 ± 0.0066 [σ²=0.3996]][A100%|██████████| 1/1 [00:00<00:00, 6069.90it/s, LdagL=0.3061 ± 0.0066 [σ²=0.3996]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  7%|▋         | 70/1000 [06:52<1:28:21,  5.70s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.2928 ± 0.0075 [σ²=0.3351]][A100%|██████████| 1/1 [00:00<00:00, 4928.68it/s, LdagL=0.2928 ± 0.0075 [σ²=0.3351]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  7%|▋         | 71/1000 [06:58<1:28:10,  5.70s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.302 ± 0.010 [σ²=0.402]][A100%|██████████| 1/1 [00:00<00:00, 3640.89it/s, LdagL=0.302 ± 0.010 [σ²=0.402]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  7%|▋         | 72/1000 [07:04<1:28:07,  5.70s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.2920 ± 0.0083 [σ²=0.4035]][A100%|██████████| 1/1 [00:00<00:00, 5890.88it/s, LdagL=0.2920 ± 0.0083 [σ²=0.4035]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  7%|▋         | 73/1000 [07:09<1:28:01,  5.70s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.2942 ± 0.0096 [σ²=0.4788]][A100%|██████████| 1/1 [00:00<00:00, 5957.82it/s, LdagL=0.2942 ± 0.0096 [σ²=0.4788]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  7%|▋         | 74/1000 [07:15<1:27:48,  5.69s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.2836 ± 0.0075 [σ²=0.3794]][A100%|██████████| 1/1 [00:00<00:00, 5236.33it/s, LdagL=0.2836 ± 0.0075 [σ²=0.3794]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  8%|▊         | 75/1000 [07:21<1:27:44,  5.69s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.2667 ± 0.0089 [σ²=0.3294]][A100%|██████████| 1/1 [00:00<00:00, 3637.73it/s, LdagL=0.2667 ± 0.0089 [σ²=0.3294]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  8%|▊         | 76/1000 [07:26<1:27:38,  5.69s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.2753 ± 0.0070 [σ²=0.3331]][A100%|██████████| 1/1 [00:00<00:00, 6087.52it/s, LdagL=0.2753 ± 0.0070 [σ²=0.3331]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  8%|▊         | 77/1000 [07:32<1:27:42,  5.70s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.2756 ± 0.0087 [σ²=0.4360]][A100%|██████████| 1/1 [00:00<00:00, 6250.83it/s, LdagL=0.2756 ± 0.0087 [σ²=0.4360]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  8%|▊         | 78/1000 [07:38<1:27:34,  5.70s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.2386 ± 0.0058 [σ²=0.2518]][A100%|██████████| 1/1 [00:00<00:00, 6168.09it/s, LdagL=0.2386 ± 0.0058 [σ²=0.2518]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  8%|▊         | 79/1000 [07:44<1:27:23,  5.69s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.2488 ± 0.0068 [σ²=0.2931]][A100%|██████████| 1/1 [00:00<00:00, 3429.52it/s, LdagL=0.2488 ± 0.0068 [σ²=0.2931]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  8%|▊         | 80/1000 [07:49<1:27:18,  5.69s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.2563 ± 0.0078 [σ²=0.3013]][A100%|██████████| 1/1 [00:00<00:00, 5907.47it/s, LdagL=0.2563 ± 0.0078 [σ²=0.3013]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  8%|▊         | 81/1000 [07:55<1:27:12,  5.69s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.2501 ± 0.0084 [σ²=0.3472]][A100%|██████████| 1/1 [00:00<00:00, 6078.70it/s, LdagL=0.2501 ± 0.0084 [σ²=0.3472]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  8%|▊         | 82/1000 [08:01<1:27:16,  5.70s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.2518 ± 0.0091 [σ²=0.4379]][A100%|██████████| 1/1 [00:00<00:00, 5991.86it/s, LdagL=0.2518 ± 0.0091 [σ²=0.4379]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  8%|▊         | 83/1000 [08:06<1:27:07,  5.70s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.2402 ± 0.0070 [σ²=0.3174]][A100%|██████████| 1/1 [00:00<00:00, 3688.92it/s, LdagL=0.2402 ± 0.0070 [σ²=0.3174]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  8%|▊         | 84/1000 [08:12<1:27:04,  5.70s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.2411 ± 0.0076 [σ²=0.2961]][A100%|██████████| 1/1 [00:00<00:00, 5801.25it/s, LdagL=0.2411 ± 0.0076 [σ²=0.2961]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  8%|▊         | 85/1000 [08:18<1:27:03,  5.71s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.2301 ± 0.0073 [σ²=0.2955]][A100%|██████████| 1/1 [00:00<00:00, 5991.86it/s, LdagL=0.2301 ± 0.0073 [σ²=0.2955]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  9%|▊         | 86/1000 [08:23<1:26:51,  5.70s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.2165 ± 0.0047 [σ²=0.2268]][A100%|██████████| 1/1 [00:00<00:00, 6132.02it/s, LdagL=0.2165 ± 0.0047 [σ²=0.2268]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  9%|▊         | 87/1000 [08:29<1:26:46,  5.70s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.2348 ± 0.0086 [σ²=0.3268]][A100%|██████████| 1/1 [00:00<00:00, 5023.12it/s, LdagL=0.2348 ± 0.0086 [σ²=0.3268]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  9%|▉         | 88/1000 [08:35<1:26:41,  5.70s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.2143 ± 0.0063 [σ²=0.2205]][A100%|██████████| 1/1 [00:00<00:00, 3949.44it/s, LdagL=0.2143 ± 0.0063 [σ²=0.2205]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  9%|▉         | 89/1000 [08:41<1:26:40,  5.71s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.2148 ± 0.0061 [σ²=0.2871]][A100%|██████████| 1/1 [00:00<00:00, 5915.80it/s, LdagL=0.2148 ± 0.0061 [σ²=0.2871]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  9%|▉         | 90/1000 [08:46<1:26:41,  5.72s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.2041 ± 0.0059 [σ²=0.2408]][A100%|██████████| 1/1 [00:00<00:00, 6269.51it/s, LdagL=0.2041 ± 0.0059 [σ²=0.2408]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  9%|▉         | 91/1000 [08:52<1:26:33,  5.71s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.2084 ± 0.0071 [σ²=0.2978]][A100%|██████████| 1/1 [00:00<00:00, 4888.47it/s, LdagL=0.2084 ± 0.0071 [σ²=0.2978]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  9%|▉         | 92/1000 [08:58<1:26:26,  5.71s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.1953 ± 0.0068 [σ²=0.2246]][A100%|██████████| 1/1 [00:00<00:00, 3685.68it/s, LdagL=0.1953 ± 0.0068 [σ²=0.2246]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  9%|▉         | 93/1000 [09:03<1:26:18,  5.71s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.1883 ± 0.0063 [σ²=0.1953]][A100%|██████████| 1/1 [00:00<00:00, 6069.90it/s, LdagL=0.1883 ± 0.0063 [σ²=0.1953]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  9%|▉         | 94/1000 [09:09<1:26:15,  5.71s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.1943 ± 0.0051 [σ²=0.2135]][A100%|██████████| 1/1 [00:00<00:00, 6159.04it/s, LdagL=0.1943 ± 0.0051 [σ²=0.2135]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 10%|▉         | 95/1000 [09:15<1:26:05,  5.71s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.1902 ± 0.0057 [σ²=0.2294]][A100%|██████████| 1/1 [00:00<00:00, 5210.32it/s, LdagL=0.1902 ± 0.0057 [σ²=0.2294]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 10%|▉         | 96/1000 [09:21<1:25:54,  5.70s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.1902 ± 0.0066 [σ²=0.2511]][A100%|██████████| 1/1 [00:00<00:00, 3600.26it/s, LdagL=0.1902 ± 0.0066 [σ²=0.2511]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 10%|▉         | 97/1000 [09:26<1:25:52,  5.71s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.1883 ± 0.0063 [σ²=0.2527]][A100%|██████████| 1/1 [00:00<00:00, 6186.29it/s, LdagL=0.1883 ± 0.0063 [σ²=0.2527]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 10%|▉         | 98/1000 [09:32<1:25:50,  5.71s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.1774 ± 0.0050 [σ²=0.1780]][A100%|██████████| 1/1 [00:00<00:00, 6123.07it/s, LdagL=0.1774 ± 0.0050 [σ²=0.1780]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 10%|▉         | 99/1000 [09:38<1:25:41,  5.71s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.1763 ± 0.0055 [σ²=0.2419]][A100%|██████████| 1/1 [00:00<00:00, 5165.40it/s, LdagL=0.1763 ± 0.0055 [σ²=0.2419]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 10%|█         | 100/1000 [09:43<1:25:35,  5.71s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.1820 ± 0.0050 [σ²=0.2287]][A100%|██████████| 1/1 [00:00<00:00, 3734.91it/s, LdagL=0.1820 ± 0.0050 [σ²=0.2287]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 10%|█         | 101/1000 [09:49<1:25:30,  5.71s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.1796 ± 0.0083 [σ²=0.3901]][A100%|██████████| 1/1 [00:00<00:00, 6096.37it/s, LdagL=0.1796 ± 0.0083 [σ²=0.3901]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 10%|█         | 102/1000 [09:55<1:25:25,  5.71s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.1764 ± 0.0073 [σ²=0.2261]][A100%|██████████| 1/1 [00:00<00:00, 6123.07it/s, LdagL=0.1764 ± 0.0073 [σ²=0.2261]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 10%|█         | 103/1000 [10:01<1:25:16,  5.70s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.1866 ± 0.0061 [σ²=0.2594]][A100%|██████████| 1/1 [00:00<00:00, 6213.78it/s, LdagL=0.1866 ± 0.0061 [σ²=0.2594]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 10%|█         | 104/1000 [10:06<1:25:12,  5.71s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.1621 ± 0.0059 [σ²=0.1665]][A100%|██████████| 1/1 [00:00<00:00, 3644.05it/s, LdagL=0.1621 ± 0.0059 [σ²=0.1665]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 10%|█         | 105/1000 [10:12<1:25:08,  5.71s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.1763 ± 0.0078 [σ²=0.3058]][A100%|██████████| 1/1 [00:00<00:00, 5857.97it/s, LdagL=0.1763 ± 0.0078 [σ²=0.3058]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 11%|█         | 106/1000 [10:18<1:24:56,  5.70s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.1648 ± 0.0061 [σ²=0.1910]][A100%|██████████| 1/1 [00:00<00:00, 6105.25it/s, LdagL=0.1648 ± 0.0061 [σ²=0.1910]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 11%|█         | 107/1000 [10:23<1:24:49,  5.70s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.1514 ± 0.0044 [σ²=0.1278]][A100%|██████████| 1/1 [00:00<00:00, 6269.51it/s, LdagL=0.1514 ± 0.0044 [σ²=0.1278]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 11%|█         | 108/1000 [10:29<1:24:39,  5.69s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.1590 ± 0.0053 [σ²=0.1991]][A100%|██████████| 1/1 [00:00<00:00, 3379.78it/s, LdagL=0.1590 ± 0.0053 [σ²=0.1991]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 11%|█         | 109/1000 [10:35<1:24:35,  5.70s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.1639 ± 0.0063 [σ²=0.2957]][A100%|██████████| 1/1 [00:00<00:00, 5866.16it/s, LdagL=0.1639 ± 0.0063 [σ²=0.2957]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 11%|█         | 110/1000 [10:40<1:24:30,  5.70s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.1472 ± 0.0056 [σ²=0.1731]][A100%|██████████| 1/1 [00:00<00:00, 6168.09it/s, LdagL=0.1472 ± 0.0056 [σ²=0.1731]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 11%|█         | 111/1000 [10:46<1:24:23,  5.70s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.1487 ± 0.0040 [σ²=0.1348]][A100%|██████████| 1/1 [00:00<00:00, 6132.02it/s, LdagL=0.1487 ± 0.0040 [σ²=0.1348]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 11%|█         | 112/1000 [10:52<1:24:17,  5.70s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.1463 ± 0.0055 [σ²=0.2003]][A100%|██████████| 1/1 [00:00<00:00, 5041.23it/s, LdagL=0.1463 ± 0.0055 [σ²=0.2003]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 11%|█▏        | 113/1000 [10:57<1:24:11,  5.70s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.1571 ± 0.0061 [σ²=0.2863]][A100%|██████████| 1/1 [00:00<00:00, 3603.35it/s, LdagL=0.1571 ± 0.0061 [σ²=0.2863]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 11%|█▏        | 114/1000 [11:03<1:24:11,  5.70s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.1440 ± 0.0049 [σ²=0.1701]][A100%|██████████| 1/1 [00:00<00:00, 6123.07it/s, LdagL=0.1440 ± 0.0049 [σ²=0.1701]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 12%|█▏        | 115/1000 [11:09<1:24:08,  5.70s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.1426 ± 0.0050 [σ²=0.1668]][A100%|██████████| 1/1 [00:00<00:00, 6213.78it/s, LdagL=0.1426 ± 0.0050 [σ²=0.1668]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 12%|█▏        | 116/1000 [11:15<1:23:58,  5.70s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.1454 ± 0.0062 [σ²=0.2975]][A100%|██████████| 1/1 [00:00<00:00, 5223.29it/s, LdagL=0.1454 ± 0.0062 [σ²=0.2975]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 12%|█▏        | 117/1000 [11:20<1:23:52,  5.70s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.1361 ± 0.0063 [σ²=0.1591]][A100%|██████████| 1/1 [00:00<00:00, 3695.42it/s, LdagL=0.1361 ± 0.0063 [σ²=0.1591]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 12%|█▏        | 118/1000 [11:26<1:23:46,  5.70s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.1409 ± 0.0056 [σ²=0.2756]][A100%|██████████| 1/1 [00:00<00:00, 6105.25it/s, LdagL=0.1409 ± 0.0056 [σ²=0.2756]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 12%|█▏        | 119/1000 [11:32<1:23:50,  5.71s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.1290 ± 0.0034 [σ²=0.1207]][A100%|██████████| 1/1 [00:00<00:00, 6168.09it/s, LdagL=0.1290 ± 0.0034 [σ²=0.1207]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 12%|█▏        | 120/1000 [11:37<1:23:41,  5.71s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.1242 ± 0.0031 [σ²=0.0973]][A100%|██████████| 1/1 [00:00<00:00, 5295.84it/s, LdagL=0.1242 ± 0.0031 [σ²=0.0973]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 12%|█▏        | 121/1000 [11:43<1:23:33,  5.70s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.1272 ± 0.0058 [σ²=0.1462]][A100%|██████████| 1/1 [00:00<00:00, 3474.98it/s, LdagL=0.1272 ± 0.0058 [σ²=0.1462]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 12%|█▏        | 122/1000 [11:49<1:24:24,  5.77s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.1263 ± 0.0042 [σ²=0.1264]][A100%|██████████| 1/1 [00:00<00:00, 6026.30it/s, LdagL=0.1263 ± 0.0042 [σ²=0.1264]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 12%|█▏        | 123/1000 [11:55<1:25:13,  5.83s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.1313 ± 0.0044 [σ²=0.1892]][A100%|██████████| 1/1 [00:00<00:00, 6026.30it/s, LdagL=0.1313 ± 0.0044 [σ²=0.1892]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 12%|█▏        | 124/1000 [12:01<1:25:06,  5.83s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.1268 ± 0.0045 [σ²=0.1387]][A100%|██████████| 1/1 [00:00<00:00, 6204.59it/s, LdagL=0.1268 ± 0.0045 [σ²=0.1387]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 12%|█▎        | 125/1000 [12:07<1:24:53,  5.82s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.1219 ± 0.0035 [σ²=0.1267]][A100%|██████████| 1/1 [00:00<00:00, 3527.59it/s, LdagL=0.1219 ± 0.0035 [σ²=0.1267]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 13%|█▎        | 126/1000 [12:12<1:24:44,  5.82s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.1260 ± 0.0047 [σ²=0.1500]][A100%|██████████| 1/1 [00:00<00:00, 5932.54it/s, LdagL=0.1260 ± 0.0047 [σ²=0.1500]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 13%|█▎        | 127/1000 [12:18<1:24:43,  5.82s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.1098 ± 0.0030 [σ²=0.0938]][A100%|██████████| 1/1 [00:00<00:00, 5540.69it/s, LdagL=0.1098 ± 0.0030 [σ²=0.0938]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 13%|█▎        | 128/1000 [12:24<1:24:36,  5.82s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.1188 ± 0.0066 [σ²=0.1403]][A100%|██████████| 1/1 [00:00<00:00, 6213.78it/s, LdagL=0.1188 ± 0.0066 [σ²=0.1403]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 13%|█▎        | 129/1000 [12:30<1:24:31,  5.82s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.1125 ± 0.0052 [σ²=0.1402]][A100%|██████████| 1/1 [00:00<00:00, 4934.48it/s, LdagL=0.1125 ± 0.0052 [σ²=0.1402]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 13%|█▎        | 130/1000 [12:36<1:24:30,  5.83s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.1083 ± 0.0039 [σ²=0.1221]][A100%|██████████| 1/1 [00:00<00:00, 3715.06it/s, LdagL=0.1083 ± 0.0039 [σ²=0.1221]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 13%|█▎        | 131/1000 [12:42<1:24:28,  5.83s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.1151 ± 0.0045 [σ²=0.1225]][A100%|██████████| 1/1 [00:00<00:00, 6043.67it/s, LdagL=0.1151 ± 0.0045 [σ²=0.1225]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 13%|█▎        | 132/1000 [12:47<1:24:24,  5.83s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.1158 ± 0.0050 [σ²=0.1604]][A100%|██████████| 1/1 [00:00<00:00, 5866.16it/s, LdagL=0.1158 ± 0.0050 [σ²=0.1604]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 13%|█▎        | 133/1000 [12:53<1:24:12,  5.83s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.1112 ± 0.0039 [σ²=0.1121]][A100%|██████████| 1/1 [00:00<00:00, 6186.29it/s, LdagL=0.1112 ± 0.0039 [σ²=0.1121]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 13%|█▎        | 134/1000 [12:59<1:24:01,  5.82s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.1057 ± 0.0047 [σ²=0.1561]][A100%|██████████| 1/1 [00:00<00:00, 3141.80it/s, LdagL=0.1057 ± 0.0047 [σ²=0.1561]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 14%|█▎        | 135/1000 [13:05<1:23:53,  5.82s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.1142 ± 0.0063 [σ²=0.2518]][A100%|██████████| 1/1 [00:00<00:00, 5223.29it/s, LdagL=0.1142 ± 0.0063 [σ²=0.2518]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 14%|█▎        | 136/1000 [13:11<1:23:54,  5.83s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.1209 ± 0.0065 [σ²=0.2694]][A100%|██████████| 1/1 [00:00<00:00, 5932.54it/s, LdagL=0.1209 ± 0.0065 [σ²=0.2694]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 14%|█▎        | 137/1000 [13:17<1:23:53,  5.83s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.1079 ± 0.0044 [σ²=0.1279]][A100%|██████████| 1/1 [00:00<00:00, 6009.03it/s, LdagL=0.1079 ± 0.0044 [σ²=0.1279]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 14%|█▍        | 138/1000 [13:22<1:23:39,  5.82s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.1090 ± 0.0069 [σ²=0.1370]][A100%|██████████| 1/1 [00:00<00:00, 4854.52it/s, LdagL=0.1090 ± 0.0069 [σ²=0.1370]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 14%|█▍        | 139/1000 [13:28<1:23:32,  5.82s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.1076 ± 0.0051 [σ²=0.1765]][A100%|██████████| 1/1 [00:00<00:00, 3625.15it/s, LdagL=0.1076 ± 0.0051 [σ²=0.1765]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 14%|█▍        | 140/1000 [13:34<1:23:33,  5.83s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.1018 ± 0.0041 [σ²=0.1124]][A100%|██████████| 1/1 [00:00<00:00, 6009.03it/s, LdagL=0.1018 ± 0.0041 [σ²=0.1124]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 14%|█▍        | 141/1000 [13:40<1:23:26,  5.83s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0936 ± 0.0037 [σ²=0.0907]][A100%|██████████| 1/1 [00:00<00:00, 6307.22it/s, LdagL=0.0936 ± 0.0037 [σ²=0.0907]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 14%|█▍        | 142/1000 [13:46<1:23:20,  5.83s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0977 ± 0.0047 [σ²=0.1671]][A100%|██████████| 1/1 [00:00<00:00, 5047.30it/s, LdagL=0.0977 ± 0.0047 [σ²=0.1671]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 14%|█▍        | 143/1000 [13:52<1:23:22,  5.84s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0977 ± 0.0045 [σ²=0.1215]][A100%|██████████| 1/1 [00:00<00:00, 3606.45it/s, LdagL=0.0977 ± 0.0045 [σ²=0.1215]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 14%|█▍        | 144/1000 [13:57<1:23:24,  5.85s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0955 ± 0.0037 [σ²=0.1041]][A100%|██████████| 1/1 [00:00<00:00, 6078.70it/s, LdagL=0.0955 ± 0.0037 [σ²=0.1041]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 14%|█▍        | 145/1000 [14:03<1:23:25,  5.85s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0918 ± 0.0041 [σ²=0.1130]][A100%|██████████| 1/1 [00:00<00:00, 5412.01it/s, LdagL=0.0918 ± 0.0041 [σ²=0.1130]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 15%|█▍        | 146/1000 [14:09<1:23:21,  5.86s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.1057 ± 0.0067 [σ²=0.2577]][A100%|██████████| 1/1 [00:00<00:00, 6141.00it/s, LdagL=0.1057 ± 0.0067 [σ²=0.2577]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 15%|█▍        | 147/1000 [14:15<1:23:16,  5.86s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0990 ± 0.0050 [σ²=0.1528]][A100%|██████████| 1/1 [00:00<00:00, 5216.80it/s, LdagL=0.0990 ± 0.0050 [σ²=0.1528]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 15%|█▍        | 148/1000 [14:21<1:23:07,  5.85s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0896 ± 0.0039 [σ²=0.0896]][A100%|██████████| 1/1 [00:00<00:00, 3782.06it/s, LdagL=0.0896 ± 0.0039 [σ²=0.0896]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 15%|█▍        | 149/1000 [14:27<1:22:55,  5.85s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0871 ± 0.0032 [σ²=0.1057]][A100%|██████████| 1/1 [00:00<00:00, 6150.01it/s, LdagL=0.0871 ± 0.0032 [σ²=0.1057]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 15%|█▌        | 150/1000 [14:33<1:22:54,  5.85s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0901 ± 0.0052 [σ²=0.1076]][A100%|██████████| 1/1 [00:00<00:00, 6159.04it/s, LdagL=0.0901 ± 0.0052 [σ²=0.1076]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 15%|█▌        | 151/1000 [14:38<1:22:39,  5.84s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0963 ± 0.0041 [σ²=0.1389]][A100%|██████████| 1/1 [00:00<00:00, 6105.25it/s, LdagL=0.0963 ± 0.0041 [σ²=0.1389]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 15%|█▌        | 152/1000 [14:44<1:22:29,  5.84s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0994 ± 0.0056 [σ²=0.1955]][A100%|██████████| 1/1 [00:00<00:00, 3758.34it/s, LdagL=0.0994 ± 0.0056 [σ²=0.1955]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 15%|█▌        | 153/1000 [14:50<1:22:21,  5.83s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0822 ± 0.0038 [σ²=0.0814]][A100%|██████████| 1/1 [00:00<00:00, 5047.30it/s, LdagL=0.0822 ± 0.0038 [σ²=0.0814]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 15%|█▌        | 154/1000 [14:56<1:22:11,  5.83s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0907 ± 0.0037 [σ²=0.1319]][A100%|██████████| 1/1 [00:00<00:00, 6269.51it/s, LdagL=0.0907 ± 0.0037 [σ²=0.1319]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 16%|█▌        | 155/1000 [15:02<1:22:06,  5.83s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0849 ± 0.0056 [σ²=0.1862]][A100%|██████████| 1/1 [00:00<00:00, 6168.09it/s, LdagL=0.0849 ± 0.0056 [σ²=0.1862]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 16%|█▌        | 156/1000 [15:07<1:21:56,  5.82s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0885 ± 0.0050 [σ²=0.1147]][A100%|██████████| 1/1 [00:00<00:00, 5412.01it/s, LdagL=0.0885 ± 0.0050 [σ²=0.1147]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 16%|█▌        | 157/1000 [15:13<1:21:42,  5.82s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0831 ± 0.0027 [σ²=0.0887]][A100%|██████████| 1/1 [00:00<00:00, 3698.68it/s, LdagL=0.0831 ± 0.0027 [σ²=0.0887]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 16%|█▌        | 158/1000 [15:19<1:21:39,  5.82s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0857 ± 0.0035 [σ²=0.0890]][A100%|██████████| 1/1 [00:00<00:00, 6177.18it/s, LdagL=0.0857 ± 0.0035 [σ²=0.0890]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 16%|█▌        | 159/1000 [15:25<1:21:29,  5.81s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0860 ± 0.0047 [σ²=0.1056]][A100%|██████████| 1/1 [00:00<00:00, 6087.52it/s, LdagL=0.0860 ± 0.0047 [σ²=0.1056]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 16%|█▌        | 160/1000 [15:31<1:21:25,  5.82s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0884 ± 0.0036 [σ²=0.1189]][A100%|██████████| 1/1 [00:00<00:00, 5146.39it/s, LdagL=0.0884 ± 0.0036 [σ²=0.1189]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 16%|█▌        | 161/1000 [15:37<1:21:25,  5.82s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0798 ± 0.0034 [σ²=0.1359]][A100%|██████████| 1/1 [00:00<00:00, 4120.14it/s, LdagL=0.0798 ± 0.0034 [σ²=0.1359]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 16%|█▌        | 162/1000 [15:42<1:21:20,  5.82s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0760 ± 0.0036 [σ²=0.1284]][A100%|██████████| 1/1 [00:00<00:00, 5667.98it/s, LdagL=0.0760 ± 0.0036 [σ²=0.1284]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 16%|█▋        | 163/1000 [15:48<1:21:17,  5.83s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0759 ± 0.0037 [σ²=0.0828]][A100%|██████████| 1/1 [00:00<00:00, 6078.70it/s, LdagL=0.0759 ± 0.0037 [σ²=0.0828]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 16%|█▋        | 164/1000 [15:54<1:21:33,  5.85s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0698 ± 0.0022 [σ²=0.0611]][A100%|██████████| 1/1 [00:00<00:00, 6132.02it/s, LdagL=0.0698 ± 0.0022 [σ²=0.0611]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 16%|█▋        | 165/1000 [16:00<1:21:43,  5.87s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0777 ± 0.0045 [σ²=0.1088]][A100%|██████████| 1/1 [00:00<00:00, 5127.51it/s, LdagL=0.0777 ± 0.0045 [σ²=0.1088]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 17%|█▋        | 166/1000 [16:06<1:21:21,  5.85s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0768 ± 0.0041 [σ²=0.0886]][A100%|██████████| 1/1 [00:00<00:00, 3998.38it/s, LdagL=0.0768 ± 0.0041 [σ²=0.0886]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 17%|█▋        | 167/1000 [16:12<1:21:11,  5.85s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0728 ± 0.0032 [σ²=0.0838]][A100%|██████████| 1/1 [00:00<00:00, 6132.02it/s, LdagL=0.0728 ± 0.0032 [σ²=0.0838]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 17%|█▋        | 168/1000 [16:18<1:21:05,  5.85s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0759 ± 0.0042 [σ²=0.0859]][A100%|██████████| 1/1 [00:00<00:00, 6114.15it/s, LdagL=0.0759 ± 0.0042 [σ²=0.0859]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 17%|█▋        | 169/1000 [16:23<1:20:56,  5.84s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0699 ± 0.0036 [σ²=0.0707]][A100%|██████████| 1/1 [00:00<00:00, 5269.23it/s, LdagL=0.0699 ± 0.0036 [σ²=0.0707]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 17%|█▋        | 170/1000 [16:29<1:20:47,  5.84s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0675 ± 0.0032 [σ²=0.0614]][A100%|██████████| 1/1 [00:00<00:00, 3708.49it/s, LdagL=0.0675 ± 0.0032 [σ²=0.0614]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 17%|█▋        | 171/1000 [16:35<1:20:40,  5.84s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0684 ± 0.0033 [σ²=0.0679]][A100%|██████████| 1/1 [00:00<00:00, 6186.29it/s, LdagL=0.0684 ± 0.0033 [σ²=0.0679]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 17%|█▋        | 172/1000 [16:41<1:20:32,  5.84s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0789 ± 0.0037 [σ²=0.1111]][A100%|██████████| 1/1 [00:00<00:00, 5159.05it/s, LdagL=0.0789 ± 0.0037 [σ²=0.1111]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 17%|█▋        | 173/1000 [16:47<1:20:21,  5.83s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0766 ± 0.0047 [σ²=0.1122]][A100%|██████████| 1/1 [00:00<00:00, 6141.00it/s, LdagL=0.0766 ± 0.0047 [σ²=0.1122]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 17%|█▋        | 174/1000 [16:53<1:20:14,  5.83s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0735 ± 0.0041 [σ²=0.1400]][A100%|██████████| 1/1 [00:00<00:00, 4860.14it/s, LdagL=0.0735 ± 0.0041 [σ²=0.1400]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 18%|█▊        | 175/1000 [16:58<1:20:08,  5.83s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0711 ± 0.0046 [σ²=0.1479]][A100%|██████████| 1/1 [00:00<00:00, 3542.49it/s, LdagL=0.0711 ± 0.0046 [σ²=0.1479]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 18%|█▊        | 176/1000 [17:04<1:20:07,  5.83s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0685 ± 0.0035 [σ²=0.0760]][A100%|██████████| 1/1 [00:00<00:00, 6345.39it/s, LdagL=0.0685 ± 0.0035 [σ²=0.0760]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 18%|█▊        | 177/1000 [17:10<1:19:59,  5.83s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0710 ± 0.0044 [σ²=0.1404]][A100%|██████████| 1/1 [00:00<00:00, 6316.72it/s, LdagL=0.0710 ± 0.0044 [σ²=0.1404]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 18%|█▊        | 178/1000 [17:16<1:19:56,  5.84s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0618 ± 0.0026 [σ²=0.0531]][A100%|██████████| 1/1 [00:00<00:00, 5236.33it/s, LdagL=0.0618 ± 0.0026 [σ²=0.0531]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 18%|█▊        | 179/1000 [17:22<1:19:47,  5.83s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0619 ± 0.0031 [σ²=0.0579]][A100%|██████████| 1/1 [00:00<00:00, 3826.92it/s, LdagL=0.0619 ± 0.0031 [σ²=0.0579]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 18%|█▊        | 180/1000 [17:28<1:19:44,  5.83s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0726 ± 0.0036 [σ²=0.1374]][A100%|██████████| 1/1 [00:00<00:00, 6159.04it/s, LdagL=0.0726 ± 0.0036 [σ²=0.1374]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 18%|█▊        | 181/1000 [17:33<1:19:37,  5.83s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0657 ± 0.0037 [σ²=0.0800]][A100%|██████████| 1/1 [00:00<00:00, 6009.03it/s, LdagL=0.0657 ± 0.0037 [σ²=0.0800]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 18%|█▊        | 182/1000 [17:39<1:19:34,  5.84s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0691 ± 0.0038 [σ²=0.1033]][A100%|██████████| 1/1 [00:00<00:00, 6335.81it/s, LdagL=0.0691 ± 0.0038 [σ²=0.1033]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 18%|█▊        | 183/1000 [17:45<1:19:24,  5.83s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0644 ± 0.0032 [σ²=0.0694]][A100%|██████████| 1/1 [00:00<00:00, 5315.97it/s, LdagL=0.0644 ± 0.0032 [σ²=0.0694]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 18%|█▊        | 184/1000 [17:51<1:19:16,  5.83s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0703 ± 0.0045 [σ²=0.1409]][A100%|██████████| 1/1 [00:00<00:00, 3575.71it/s, LdagL=0.0703 ± 0.0045 [σ²=0.1409]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 18%|█▊        | 185/1000 [17:57<1:19:12,  5.83s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0676 ± 0.0045 [σ²=0.1084]][A100%|██████████| 1/1 [00:00<00:00, 5924.16it/s, LdagL=0.0676 ± 0.0045 [σ²=0.1084]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 19%|█▊        | 186/1000 [18:03<1:19:12,  5.84s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0670 ± 0.0043 [σ²=0.1017]][A100%|██████████| 1/1 [00:00<00:00, 5974.79it/s, LdagL=0.0670 ± 0.0043 [σ²=0.1017]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 19%|█▊        | 187/1000 [18:08<1:19:08,  5.84s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0565 ± 0.0019 [σ²=0.0403]][A100%|██████████| 1/1 [00:00<00:00, 5475.59it/s, LdagL=0.0565 ± 0.0019 [σ²=0.0403]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 19%|█▉        | 188/1000 [18:14<1:19:03,  5.84s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0683 ± 0.0045 [σ²=0.1357]][A100%|██████████| 1/1 [00:00<00:00, 3775.25it/s, LdagL=0.0683 ± 0.0045 [σ²=0.1357]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 19%|█▉        | 189/1000 [18:20<1:18:58,  5.84s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0611 ± 0.0028 [σ²=0.0806]][A100%|██████████| 1/1 [00:00<00:00, 6213.78it/s, LdagL=0.0611 ± 0.0028 [σ²=0.0806]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 19%|█▉        | 190/1000 [18:26<1:18:49,  5.84s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0607 ± 0.0033 [σ²=0.0690]][A100%|██████████| 1/1 [00:00<00:00, 6364.65it/s, LdagL=0.0607 ± 0.0033 [σ²=0.0690]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 19%|█▉        | 191/1000 [18:32<1:18:42,  5.84s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0602 ± 0.0036 [σ²=0.0987]][A100%|██████████| 1/1 [00:00<00:00, 6452.78it/s, LdagL=0.0602 ± 0.0036 [σ²=0.0987]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 19%|█▉        | 192/1000 [18:38<1:18:38,  5.84s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0594 ± 0.0031 [σ²=0.0846]][A100%|██████████| 1/1 [00:00<00:00, 5377.31it/s, LdagL=0.0594 ± 0.0031 [σ²=0.0846]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 19%|█▉        | 193/1000 [18:43<1:18:34,  5.84s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0665 ± 0.0049 [σ²=0.1688]][A100%|██████████| 1/1 [00:00<00:00, 3578.76it/s, LdagL=0.0665 ± 0.0049 [σ²=0.1688]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 19%|█▉        | 194/1000 [18:49<1:18:31,  5.84s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0556 ± 0.0024 [σ²=0.0573]][A100%|██████████| 1/1 [00:00<00:00, 6026.30it/s, LdagL=0.0556 ± 0.0024 [σ²=0.0573]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 20%|█▉        | 195/1000 [18:55<1:18:24,  5.84s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0545 ± 0.0022 [σ²=0.0504]][A100%|██████████| 1/1 [00:00<00:00, 5785.25it/s, LdagL=0.0545 ± 0.0022 [σ²=0.0504]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 20%|█▉        | 196/1000 [19:01<1:18:18,  5.84s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0528 ± 0.0025 [σ²=0.0485]][A100%|██████████| 1/1 [00:00<00:00, 4843.31it/s, LdagL=0.0528 ± 0.0025 [σ²=0.0485]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 20%|█▉        | 197/1000 [19:07<1:18:17,  5.85s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0546 ± 0.0029 [σ²=0.0481]][A100%|██████████| 1/1 [00:00<00:00, 4076.10it/s, LdagL=0.0546 ± 0.0029 [σ²=0.0481]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 20%|█▉        | 198/1000 [19:13<1:18:12,  5.85s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0588 ± 0.0050 [σ²=0.0795]][A100%|██████████| 1/1 [00:00<00:00, 6061.13it/s, LdagL=0.0588 ± 0.0050 [σ²=0.0795]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 20%|█▉        | 199/1000 [19:19<1:18:02,  5.85s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0592 ± 0.0041 [σ²=0.0956]][A100%|██████████| 1/1 [00:00<00:00, 6069.90it/s, LdagL=0.0592 ± 0.0041 [σ²=0.0956]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 20%|██        | 200/1000 [19:24<1:17:57,  5.85s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0561 ± 0.0031 [σ²=0.0655]][A100%|██████████| 1/1 [00:00<00:00, 6260.16it/s, LdagL=0.0561 ± 0.0031 [σ²=0.0655]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 20%|██        | 201/1000 [19:30<1:17:47,  5.84s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0538 ± 0.0033 [σ²=0.0924]][A100%|██████████| 1/1 [00:00<00:00, 5121.25it/s, LdagL=0.0538 ± 0.0033 [σ²=0.0924]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 20%|██        | 202/1000 [19:36<1:17:35,  5.83s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0558 ± 0.0031 [σ²=0.0679]][A100%|██████████| 1/1 [00:00<00:00, 3761.71it/s, LdagL=0.0558 ± 0.0031 [σ²=0.0679]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 20%|██        | 203/1000 [19:42<1:17:31,  5.84s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0527 ± 0.0029 [σ²=0.0861]][A100%|██████████| 1/1 [00:00<00:00, 6043.67it/s, LdagL=0.0527 ± 0.0029 [σ²=0.0861]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 20%|██        | 204/1000 [19:48<1:17:29,  5.84s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0566 ± 0.0033 [σ²=0.0709]][A100%|██████████| 1/1 [00:00<00:00, 6000.43it/s, LdagL=0.0566 ± 0.0033 [σ²=0.0709]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 20%|██        | 205/1000 [19:54<1:17:24,  5.84s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0540 ± 0.0029 [σ²=0.0752]][A100%|██████████| 1/1 [00:00<00:00, 4877.10it/s, LdagL=0.0540 ± 0.0029 [σ²=0.0752]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 21%|██        | 206/1000 [19:59<1:17:18,  5.84s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0544 ± 0.0029 [σ²=0.0607]][A100%|██████████| 1/1 [00:00<00:00, 3591.01it/s, LdagL=0.0544 ± 0.0029 [σ²=0.0607]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 21%|██        | 207/1000 [20:05<1:17:18,  5.85s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0568 ± 0.0044 [σ²=0.2023]][A100%|██████████| 1/1 [00:00<00:00, 5526.09it/s, LdagL=0.0568 ± 0.0044 [σ²=0.2023]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 21%|██        | 208/1000 [20:11<1:17:11,  5.85s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0503 ± 0.0025 [σ²=0.0548]][A100%|██████████| 1/1 [00:00<00:00, 6260.16it/s, LdagL=0.0503 ± 0.0025 [σ²=0.0548]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 21%|██        | 209/1000 [20:17<1:16:59,  5.84s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0559 ± 0.0043 [σ²=0.1637]][A100%|██████████| 1/1 [00:00<00:00, 6260.16it/s, LdagL=0.0559 ± 0.0043 [σ²=0.1637]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 21%|██        | 210/1000 [20:23<1:16:52,  5.84s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0520 ± 0.0029 [σ²=0.0673]][A100%|██████████| 1/1 [00:00<00:00, 4686.37it/s, LdagL=0.0520 ± 0.0029 [σ²=0.0673]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 21%|██        | 211/1000 [20:29<1:16:43,  5.83s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0503 ± 0.0030 [σ²=0.0784]][A100%|██████████| 1/1 [00:00<00:00, 3675.99it/s, LdagL=0.0503 ± 0.0030 [σ²=0.0784]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 21%|██        | 212/1000 [20:34<1:16:44,  5.84s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0560 ± 0.0040 [σ²=0.1001]][A100%|██████████| 1/1 [00:00<00:00, 5957.82it/s, LdagL=0.0560 ± 0.0040 [σ²=0.1001]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 21%|██▏       | 213/1000 [20:40<1:16:46,  5.85s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0490 ± 0.0048 [σ²=0.0883]][A100%|██████████| 1/1 [00:00<00:00, 5809.29it/s, LdagL=0.0490 ± 0.0048 [σ²=0.0883]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 21%|██▏       | 214/1000 [20:46<1:16:45,  5.86s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0503 ± 0.0033 [σ²=0.0641]][A100%|██████████| 1/1 [00:00<00:00, 5249.44it/s, LdagL=0.0503 ± 0.0033 [σ²=0.0641]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 22%|██▏       | 215/1000 [20:52<1:16:39,  5.86s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0515 ± 0.0031 [σ²=0.0903]][A100%|██████████| 1/1 [00:00<00:00, 3823.43it/s, LdagL=0.0515 ± 0.0031 [σ²=0.0903]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 22%|██▏       | 216/1000 [20:58<1:16:31,  5.86s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0542 ± 0.0039 [σ²=0.1015]][A100%|██████████| 1/1 [00:00<00:00, 6232.25it/s, LdagL=0.0542 ± 0.0039 [σ²=0.1015]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 22%|██▏       | 217/1000 [21:04<1:16:36,  5.87s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0572 ± 0.0047 [σ²=0.1459]][A100%|██████████| 1/1 [00:00<00:00, 6052.39it/s, LdagL=0.0572 ± 0.0047 [σ²=0.1459]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 22%|██▏       | 218/1000 [21:10<1:16:21,  5.86s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0417 ± 0.0022 [σ²=0.0249]][A100%|██████████| 1/1 [00:00<00:00, 5737.76it/s, LdagL=0.0417 ± 0.0022 [σ²=0.0249]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 22%|██▏       | 219/1000 [21:15<1:16:10,  5.85s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0444 ± 0.0023 [σ²=0.0413]][A100%|██████████| 1/1 [00:00<00:00, 5090.17it/s, LdagL=0.0444 ± 0.0023 [σ²=0.0413]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 22%|██▏       | 220/1000 [21:21<1:16:02,  5.85s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0472 ± 0.0032 [σ²=0.0980]][A100%|██████████| 1/1 [00:00<00:00, 3701.95it/s, LdagL=0.0472 ± 0.0032 [σ²=0.0980]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 22%|██▏       | 221/1000 [21:27<1:15:56,  5.85s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0440 ± 0.0020 [σ²=0.0344]][A100%|██████████| 1/1 [00:00<00:00, 5809.29it/s, LdagL=0.0440 ± 0.0020 [σ²=0.0344]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 22%|██▏       | 222/1000 [21:33<1:15:55,  5.86s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0485 ± 0.0031 [σ²=0.0637]][A100%|██████████| 1/1 [00:00<00:00, 5874.38it/s, LdagL=0.0485 ± 0.0031 [σ²=0.0637]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 22%|██▏       | 223/1000 [21:39<1:15:49,  5.85s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0420 ± 0.0022 [σ²=0.0369]][A100%|██████████| 1/1 [00:00<00:00, 6105.25it/s, LdagL=0.0420 ± 0.0022 [σ²=0.0369]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 22%|██▏       | 224/1000 [21:45<1:15:39,  5.85s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0462 ± 0.0029 [σ²=0.0543]][A100%|██████████| 1/1 [00:00<00:00, 3512.82it/s, LdagL=0.0462 ± 0.0029 [σ²=0.0543]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 22%|██▎       | 225/1000 [21:51<1:15:32,  5.85s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0448 ± 0.0027 [σ²=0.0480]][A100%|██████████| 1/1 [00:00<00:00, 5562.74it/s, LdagL=0.0448 ± 0.0027 [σ²=0.0480]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 23%|██▎       | 226/1000 [21:56<1:15:25,  5.85s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0467 ± 0.0033 [σ²=0.0825]][A100%|██████████| 1/1 [00:00<00:00, 5874.38it/s, LdagL=0.0467 ± 0.0033 [σ²=0.0825]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 23%|██▎       | 227/1000 [22:02<1:15:23,  5.85s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0479 ± 0.0039 [σ²=0.1076]][A100%|██████████| 1/1 [00:00<00:00, 6269.51it/s, LdagL=0.0479 ± 0.0039 [σ²=0.1076]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 23%|██▎       | 228/1000 [22:08<1:15:18,  5.85s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0456 ± 0.0028 [σ²=0.0562]][A100%|██████████| 1/1 [00:00<00:00, 5108.77it/s, LdagL=0.0456 ± 0.0028 [σ²=0.0562]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 23%|██▎       | 229/1000 [22:14<1:15:11,  5.85s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0459 ± 0.0026 [σ²=0.0703]][A100%|██████████| 1/1 [00:00<00:00, 3883.61it/s, LdagL=0.0459 ± 0.0026 [σ²=0.0703]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 23%|██▎       | 230/1000 [22:20<1:15:07,  5.85s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0432 ± 0.0030 [σ²=0.0449]][A100%|██████████| 1/1 [00:00<00:00, 6069.90it/s, LdagL=0.0432 ± 0.0030 [σ²=0.0449]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 23%|██▎       | 231/1000 [22:26<1:15:01,  5.85s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0459 ± 0.0028 [σ²=0.0568]][A100%|██████████| 1/1 [00:00<00:00, 6087.52it/s, LdagL=0.0459 ± 0.0028 [σ²=0.0568]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 23%|██▎       | 232/1000 [22:32<1:14:55,  5.85s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0461 ± 0.0036 [σ²=0.0619]][A100%|██████████| 1/1 [00:00<00:00, 5966.29it/s, LdagL=0.0461 ± 0.0036 [σ²=0.0619]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 23%|██▎       | 233/1000 [22:37<1:14:47,  5.85s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0440 ± 0.0022 [σ²=0.0551]][A100%|██████████| 1/1 [00:00<00:00, 3640.89it/s, LdagL=0.0440 ± 0.0022 [σ²=0.0551]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 23%|██▎       | 234/1000 [22:43<1:14:39,  5.85s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0432 ± 0.0035 [σ²=0.0481]][A100%|██████████| 1/1 [00:00<00:00, 5825.42it/s, LdagL=0.0432 ± 0.0035 [σ²=0.0481]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 24%|██▎       | 235/1000 [22:49<1:14:38,  5.85s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0436 ± 0.0030 [σ²=0.0444]][A100%|██████████| 1/1 [00:00<00:00, 5966.29it/s, LdagL=0.0436 ± 0.0030 [σ²=0.0444]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 24%|██▎       | 236/1000 [22:55<1:14:31,  5.85s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0409 ± 0.0021 [σ²=0.0328]][A100%|██████████| 1/1 [00:00<00:00, 6150.01it/s, LdagL=0.0409 ± 0.0021 [σ²=0.0328]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 24%|██▎       | 237/1000 [23:01<1:14:23,  5.85s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0401 ± 0.0019 [σ²=0.0357]][A100%|██████████| 1/1 [00:00<00:00, 5140.08it/s, LdagL=0.0401 ± 0.0019 [σ²=0.0357]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 24%|██▍       | 238/1000 [23:07<1:14:13,  5.84s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0488 ± 0.0042 [σ²=0.0873]][A100%|██████████| 1/1 [00:00<00:00, 3869.28it/s, LdagL=0.0488 ± 0.0042 [σ²=0.0873]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 24%|██▍       | 239/1000 [23:13<1:14:13,  5.85s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0398 ± 0.0021 [σ²=0.0324]][A100%|██████████| 1/1 [00:00<00:00, 6009.03it/s, LdagL=0.0398 ± 0.0021 [σ²=0.0324]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 24%|██▍       | 240/1000 [23:18<1:14:05,  5.85s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0432 ± 0.0034 [σ²=0.0695]][A100%|██████████| 1/1 [00:00<00:00, 6195.43it/s, LdagL=0.0432 ± 0.0034 [σ²=0.0695]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 24%|██▍       | 241/1000 [23:24<1:14:02,  5.85s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0472 ± 0.0043 [σ²=0.2032]][A100%|██████████| 1/1 [00:00<00:00, 6123.07it/s, LdagL=0.0472 ± 0.0043 [σ²=0.2032]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 24%|██▍       | 242/1000 [23:30<1:14:04,  5.86s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0399 ± 0.0033 [σ²=0.1300]][A100%|██████████| 1/1 [00:00<00:00, 3407.23it/s, LdagL=0.0399 ± 0.0033 [σ²=0.1300]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 24%|██▍       | 243/1000 [23:36<1:13:56,  5.86s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0414 ± 0.0034 [σ²=0.0528]][A100%|██████████| 1/1 [00:00<00:00, 5745.62it/s, LdagL=0.0414 ± 0.0034 [σ²=0.0528]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 24%|██▍       | 244/1000 [23:42<1:13:50,  5.86s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0390 ± 0.0026 [σ²=0.0371]][A100%|██████████| 1/1 [00:00<00:00, 5890.88it/s, LdagL=0.0390 ± 0.0026 [σ²=0.0371]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 24%|██▍       | 245/1000 [23:48<1:13:43,  5.86s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0414 ± 0.0024 [σ²=0.0545]][A100%|██████████| 1/1 [00:00<00:00, 6168.09it/s, LdagL=0.0414 ± 0.0024 [σ²=0.0545]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 25%|██▍       | 246/1000 [23:54<1:13:41,  5.86s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0498 ± 0.0047 [σ²=0.1688]][A100%|██████████| 1/1 [00:00<00:00, 5084.00it/s, LdagL=0.0498 ± 0.0047 [σ²=0.1688]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 25%|██▍       | 247/1000 [23:59<1:13:37,  5.87s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0385 ± 0.0025 [σ²=0.0450]][A100%|██████████| 1/1 [00:00<00:00, 3527.59it/s, LdagL=0.0385 ± 0.0025 [σ²=0.0450]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 25%|██▍       | 248/1000 [24:05<1:13:29,  5.86s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0402 ± 0.0030 [σ²=0.0961]][A100%|██████████| 1/1 [00:00<00:00, 5899.16it/s, LdagL=0.0402 ± 0.0030 [σ²=0.0961]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 25%|██▍       | 249/1000 [24:11<1:13:16,  5.85s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0376 ± 0.0030 [σ²=0.0686]][A100%|██████████| 1/1 [00:00<00:00, 6114.15it/s, LdagL=0.0376 ± 0.0030 [σ²=0.0686]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 25%|██▌       | 250/1000 [24:17<1:13:08,  5.85s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0460 ± 0.0044 [σ²=0.1540]][A100%|██████████| 1/1 [00:00<00:00, 6132.02it/s, LdagL=0.0460 ± 0.0044 [σ²=0.1540]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 25%|██▌       | 251/1000 [24:23<1:13:02,  5.85s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0394 ± 0.0039 [σ²=0.1170]][A100%|██████████| 1/1 [00:00<00:00, 3435.14it/s, LdagL=0.0394 ± 0.0039 [σ²=0.1170]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 25%|██▌       | 252/1000 [24:29<1:12:53,  5.85s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0360 ± 0.0024 [σ²=0.0380]][A100%|██████████| 1/1 [00:00<00:00, 6026.30it/s, LdagL=0.0360 ± 0.0024 [σ²=0.0380]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 25%|██▌       | 253/1000 [24:35<1:12:54,  5.86s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0392 ± 0.0043 [σ²=0.1103]][A100%|██████████| 1/1 [00:00<00:00, 6000.43it/s, LdagL=0.0392 ± 0.0043 [σ²=0.1103]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 25%|██▌       | 254/1000 [24:40<1:12:47,  5.85s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0356 ± 0.0021 [σ²=0.0326]][A100%|██████████| 1/1 [00:00<00:00, 6159.04it/s, LdagL=0.0356 ± 0.0021 [σ²=0.0326]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 26%|██▌       | 255/1000 [24:46<1:12:36,  5.85s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0469 ± 0.0049 [σ²=0.1397]][A100%|██████████| 1/1 [00:00<00:00, 3501.09it/s, LdagL=0.0469 ± 0.0049 [σ²=0.1397]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 26%|██▌       | 256/1000 [24:52<1:12:34,  5.85s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0338 ± 0.0020 [σ²=0.0308]][A100%|██████████| 1/1 [00:00<00:00, 5698.78it/s, LdagL=0.0338 ± 0.0020 [σ²=0.0308]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 26%|██▌       | 257/1000 [24:58<1:12:24,  5.85s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0392 ± 0.0020 [σ²=0.0523]][A100%|██████████| 1/1 [00:00<00:00, 5691.05it/s, LdagL=0.0392 ± 0.0020 [σ²=0.0523]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 26%|██▌       | 258/1000 [25:04<1:12:14,  5.84s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0368 ± 0.0024 [σ²=0.0432]][A100%|██████████| 1/1 [00:00<00:00, 6159.04it/s, LdagL=0.0368 ± 0.0024 [σ²=0.0432]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 26%|██▌       | 259/1000 [25:10<1:12:04,  5.84s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0311 ± 0.0013 [σ²=0.0155]][A100%|██████████| 1/1 [00:00<00:00, 6069.90it/s, LdagL=0.0311 ± 0.0013 [σ²=0.0155]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 26%|██▌       | 260/1000 [25:15<1:11:55,  5.83s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0369 ± 0.0031 [σ²=0.0881]][A100%|██████████| 1/1 [00:00<00:00, 6150.01it/s, LdagL=0.0369 ± 0.0031 [σ²=0.0881]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 26%|██▌       | 261/1000 [25:21<1:11:49,  5.83s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0412 ± 0.0034 [σ²=0.0710]][A100%|██████████| 1/1 [00:00<00:00, 6052.39it/s, LdagL=0.0412 ± 0.0034 [σ²=0.0710]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 26%|██▌       | 262/1000 [25:27<1:11:39,  5.83s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0388 ± 0.0031 [σ²=0.0674]][A100%|██████████| 1/1 [00:00<00:00, 4837.72it/s, LdagL=0.0388 ± 0.0031 [σ²=0.0674]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 26%|██▋       | 263/1000 [25:33<1:11:33,  5.83s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0315 ± 0.0016 [σ²=0.0231]][A100%|██████████| 1/1 [00:00<00:00, 3663.15it/s, LdagL=0.0315 ± 0.0016 [σ²=0.0231]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 26%|██▋       | 264/1000 [25:39<1:11:28,  5.83s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0321 ± 0.0020 [σ²=0.0269]][A100%|██████████| 1/1 [00:00<00:00, 6000.43it/s, LdagL=0.0321 ± 0.0020 [σ²=0.0269]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 26%|██▋       | 265/1000 [25:45<1:11:27,  5.83s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0390 ± 0.0038 [σ²=0.0786]][A100%|██████████| 1/1 [00:00<00:00, 6195.43it/s, LdagL=0.0390 ± 0.0038 [σ²=0.0786]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 27%|██▋       | 266/1000 [25:50<1:11:19,  5.83s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0390 ± 0.0031 [σ²=0.0881]][A100%|██████████| 1/1 [00:00<00:00, 5793.24it/s, LdagL=0.0390 ± 0.0031 [σ²=0.0881]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 27%|██▋       | 267/1000 [25:56<1:11:09,  5.82s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0370 ± 0.0025 [σ²=0.0504]][A100%|██████████| 1/1 [00:00<00:00, 3530.56it/s, LdagL=0.0370 ± 0.0025 [σ²=0.0504]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 27%|██▋       | 268/1000 [26:02<1:11:03,  5.82s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0303 ± 0.0015 [σ²=0.0221]][A100%|██████████| 1/1 [00:00<00:00, 5932.54it/s, LdagL=0.0303 ± 0.0015 [σ²=0.0221]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 27%|██▋       | 269/1000 [26:08<1:11:04,  5.83s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0364 ± 0.0027 [σ²=0.0571]][A100%|██████████| 1/1 [00:00<00:00, 5269.23it/s, LdagL=0.0364 ± 0.0027 [σ²=0.0571]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 27%|██▋       | 270/1000 [26:14<1:10:59,  5.84s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0352 ± 0.0028 [σ²=0.0468]][A100%|██████████| 1/1 [00:00<00:00, 6105.25it/s, LdagL=0.0352 ± 0.0028 [σ²=0.0468]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 27%|██▋       | 271/1000 [26:20<1:10:55,  5.84s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0359 ± 0.0022 [σ²=0.0477]][A100%|██████████| 1/1 [00:00<00:00, 3294.82it/s, LdagL=0.0359 ± 0.0022 [σ²=0.0477]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 27%|██▋       | 272/1000 [26:25<1:10:47,  5.83s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0375 ± 0.0029 [σ²=0.1046]][A100%|██████████| 1/1 [00:00<00:00, 5629.94it/s, LdagL=0.0375 ± 0.0029 [σ²=0.1046]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 27%|██▋       | 273/1000 [26:31<1:10:51,  5.85s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0355 ± 0.0046 [σ²=0.2148]][A100%|██████████| 1/1 [00:00<00:00, 6297.75it/s, LdagL=0.0355 ± 0.0046 [σ²=0.2148]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 27%|██▋       | 274/1000 [26:37<1:10:46,  5.85s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0322 ± 0.0022 [σ²=0.0252]][A100%|██████████| 1/1 [00:00<00:00, 6114.15it/s, LdagL=0.0322 ± 0.0022 [σ²=0.0252]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 28%|██▊       | 275/1000 [26:43<1:10:31,  5.84s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0353 ± 0.0033 [σ²=0.0606]][A100%|██████████| 1/1 [00:00<00:00, 6241.52it/s, LdagL=0.0353 ± 0.0033 [σ²=0.0606]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 28%|██▊       | 276/1000 [26:49<1:10:26,  5.84s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0317 ± 0.0016 [σ²=0.0220]][A100%|██████████| 1/1 [00:00<00:00, 5874.38it/s, LdagL=0.0317 ± 0.0016 [σ²=0.0220]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 28%|██▊       | 277/1000 [26:55<1:10:17,  5.83s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0358 ± 0.0022 [σ²=0.0443]][A100%|██████████| 1/1 [00:00<00:00, 6000.43it/s, LdagL=0.0358 ± 0.0022 [σ²=0.0443]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 28%|██▊       | 278/1000 [27:00<1:10:14,  5.84s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0322 ± 0.0024 [σ²=0.0350]][A100%|██████████| 1/1 [00:00<00:00, 4514.86it/s, LdagL=0.0322 ± 0.0024 [σ²=0.0350]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 28%|██▊       | 279/1000 [27:06<1:10:09,  5.84s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0328 ± 0.0026 [σ²=0.0524]][A100%|██████████| 1/1 [00:00<00:00, 2939.25it/s, LdagL=0.0328 ± 0.0026 [σ²=0.0524]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 28%|██▊       | 280/1000 [27:12<1:10:03,  5.84s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0337 ± 0.0028 [σ²=0.0480]][A100%|██████████| 1/1 [00:00<00:00, 5714.31it/s, LdagL=0.0337 ± 0.0028 [σ²=0.0480]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 28%|██▊       | 281/1000 [27:18<1:10:00,  5.84s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0283 ± 0.0021 [σ²=0.0443]][A100%|██████████| 1/1 [00:00<00:00, 6061.13it/s, LdagL=0.0283 ± 0.0021 [σ²=0.0443]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 28%|██▊       | 282/1000 [27:24<1:09:51,  5.84s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0342 ± 0.0049 [σ²=0.2347]][A100%|██████████| 1/1 [00:00<00:00, 6043.67it/s, LdagL=0.0342 ± 0.0049 [σ²=0.2347]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 28%|██▊       | 283/1000 [27:30<1:09:50,  5.84s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0344 ± 0.0023 [σ²=0.0425]][A100%|██████████| 1/1 [00:00<00:00, 5777.28it/s, LdagL=0.0344 ± 0.0023 [σ²=0.0425]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 28%|██▊       | 284/1000 [27:35<1:09:51,  5.85s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0388 ± 0.0032 [σ²=0.0957]][A100%|██████████| 1/1 [00:00<00:00, 4934.48it/s, LdagL=0.0388 ± 0.0032 [σ²=0.0957]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 28%|██▊       | 285/1000 [27:41<1:09:45,  5.85s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0350 ± 0.0027 [σ²=0.0550]][A100%|██████████| 1/1 [00:00<00:00, 3618.90it/s, LdagL=0.0350 ± 0.0027 [σ²=0.0550]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 29%|██▊       | 286/1000 [27:47<1:09:33,  5.85s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0311 ± 0.0022 [σ²=0.0375]][A100%|██████████| 1/1 [00:00<00:00, 6043.67it/s, LdagL=0.0311 ± 0.0022 [σ²=0.0375]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 29%|██▊       | 287/1000 [27:53<1:09:26,  5.84s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0304 ± 0.0027 [σ²=0.0411]][A100%|██████████| 1/1 [00:00<00:00, 6150.01it/s, LdagL=0.0304 ± 0.0027 [σ²=0.0411]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 29%|██▉       | 288/1000 [27:59<1:09:12,  5.83s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0350 ± 0.0037 [σ²=0.1601]][A100%|██████████| 1/1 [00:00<00:00, 5102.56it/s, LdagL=0.0350 ± 0.0037 [σ²=0.1601]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 29%|██▉       | 289/1000 [28:05<1:09:09,  5.84s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0322 ± 0.0034 [σ²=0.0336]][A100%|██████████| 1/1 [00:00<00:00, 3768.47it/s, LdagL=0.0322 ± 0.0034 [σ²=0.0336]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 29%|██▉       | 290/1000 [28:11<1:09:12,  5.85s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0277 ± 0.0021 [σ²=0.0267]][A100%|██████████| 1/1 [00:00<00:00, 6177.18it/s, LdagL=0.0277 ± 0.0021 [σ²=0.0267]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 29%|██▉       | 291/1000 [28:16<1:09:01,  5.84s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.050 ± 0.019 [σ²=3.956]][A100%|██████████| 1/1 [00:00<00:00, 6114.15it/s, LdagL=0.050 ± 0.019 [σ²=3.956]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 29%|██▉       | 292/1000 [28:22<1:09:00,  5.85s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0298 ± 0.0023 [σ²=0.0439]][A100%|██████████| 1/1 [00:00<00:00, 6061.13it/s, LdagL=0.0298 ± 0.0023 [σ²=0.0439]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 29%|██▉       | 293/1000 [28:28<1:08:53,  5.85s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0345 ± 0.0023 [σ²=0.0490]][A100%|██████████| 1/1 [00:00<00:00, 3379.78it/s, LdagL=0.0345 ± 0.0023 [σ²=0.0490]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 29%|██▉       | 294/1000 [28:34<1:08:51,  5.85s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0287 ± 0.0017 [σ²=0.0276]][A100%|██████████| 1/1 [00:00<00:00, 5722.11it/s, LdagL=0.0287 ± 0.0017 [σ²=0.0276]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 30%|██▉       | 295/1000 [28:40<1:08:44,  5.85s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0296 ± 0.0019 [σ²=0.0387]][A100%|██████████| 1/1 [00:00<00:00, 6307.22it/s, LdagL=0.0296 ± 0.0019 [σ²=0.0387]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 30%|██▉       | 296/1000 [28:46<1:08:35,  5.85s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0342 ± 0.0048 [σ²=0.2665]][A100%|██████████| 1/1 [00:00<00:00, 6132.02it/s, LdagL=0.0342 ± 0.0048 [σ²=0.2665]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 30%|██▉       | 297/1000 [28:51<1:08:30,  5.85s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0300 ± 0.0017 [σ²=0.0293]][A100%|██████████| 1/1 [00:00<00:00, 5584.96it/s, LdagL=0.0300 ± 0.0017 [σ²=0.0293]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 30%|██▉       | 298/1000 [28:57<1:08:19,  5.84s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0264 ± 0.0018 [σ²=0.0227]][A100%|██████████| 1/1 [00:00<00:00, 3435.14it/s, LdagL=0.0264 ± 0.0018 [σ²=0.0227]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 30%|██▉       | 299/1000 [29:03<1:08:18,  5.85s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0280 ± 0.0018 [σ²=0.0296]][A100%|██████████| 1/1 [00:00<00:00, 6150.01it/s, LdagL=0.0280 ± 0.0018 [σ²=0.0296]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 30%|███       | 300/1000 [29:09<1:08:09,  5.84s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0299 ± 0.0023 [σ²=0.0286]][A100%|██████████| 1/1 [00:00<00:00, 6492.73it/s, LdagL=0.0299 ± 0.0023 [σ²=0.0286]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 30%|███       | 301/1000 [29:15<1:08:11,  5.85s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0290 ± 0.0020 [σ²=0.0333]][A100%|██████████| 1/1 [00:00<00:00, 6017.65it/s, LdagL=0.0290 ± 0.0020 [σ²=0.0333]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 30%|███       | 302/1000 [29:21<1:08:03,  5.85s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0275 ± 0.0018 [σ²=0.0232]][A100%|██████████| 1/1 [00:00<00:00, 3949.44it/s, LdagL=0.0275 ± 0.0018 [σ²=0.0232]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 30%|███       | 303/1000 [29:27<1:07:52,  5.84s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0265 ± 0.0014 [σ²=0.0211]][A100%|██████████| 1/1 [00:00<00:00, 5849.80it/s, LdagL=0.0265 ± 0.0014 [σ²=0.0211]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 30%|███       | 304/1000 [29:32<1:07:44,  5.84s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0331 ± 0.0024 [σ²=0.0604]][A100%|██████████| 1/1 [00:00<00:00, 6482.70it/s, LdagL=0.0331 ± 0.0024 [σ²=0.0604]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 30%|███       | 305/1000 [29:38<1:07:46,  5.85s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0275 ± 0.0017 [σ²=0.0280]][A100%|██████████| 1/1 [00:00<00:00, 6710.89it/s, LdagL=0.0275 ± 0.0017 [σ²=0.0280]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 31%|███       | 306/1000 [29:44<1:07:44,  5.86s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0282 ± 0.0015 [σ²=0.0325]][A100%|██████████| 1/1 [00:00<00:00, 5753.50it/s, LdagL=0.0282 ± 0.0015 [σ²=0.0325]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 31%|███       | 307/1000 [29:50<1:07:32,  5.85s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0277 ± 0.0021 [σ²=0.0291]][A100%|██████████| 1/1 [00:00<00:00, 4815.50it/s, LdagL=0.0277 ± 0.0021 [σ²=0.0291]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 31%|███       | 308/1000 [29:56<1:07:21,  5.84s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0333 ± 0.0032 [σ²=0.0742]][A100%|██████████| 1/1 [00:00<00:00, 6278.90it/s, LdagL=0.0333 ± 0.0032 [σ²=0.0742]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 31%|███       | 309/1000 [30:02<1:07:23,  5.85s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:05<?, ?it/s, LdagL=0.0296 ± 0.0031 [σ²=0.0313]][A100%|██████████| 1/1 [00:00<00:00, 6543.38it/s, LdagL=0.0296 ± 0.0031 [σ²=0.0313]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 31%|███       | 310/1000 [30:08<1:07:47,  5.90s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:06<?, ?it/s, LdagL=0.0306 ± 0.0024 [σ²=0.0550]][A100%|██████████| 1/1 [00:00<00:00, 6533.18it/s, LdagL=0.0306 ± 0.0024 [σ²=0.0550]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 31%|███       | 311/1000 [30:14<1:09:44,  6.07s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:07<?, ?it/s, LdagL=0.0287 ± 0.0023 [σ²=0.0436]][A100%|██████████| 1/1 [00:00<00:00, 4405.78it/s, LdagL=0.0287 ± 0.0023 [σ²=0.0436]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 31%|███       | 312/1000 [30:21<1:13:50,  6.44s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:07<?, ?it/s, LdagL=0.0282 ± 0.0020 [σ²=0.0263]][A100%|██████████| 1/1 [00:00<00:00, 6000.43it/s, LdagL=0.0282 ± 0.0020 [σ²=0.0263]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 31%|███▏      | 313/1000 [30:29<1:18:47,  6.88s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:07<?, ?it/s, LdagL=0.041 ± 0.014 [σ²=2.112]][A100%|██████████| 1/1 [00:00<00:00, 4804.47it/s, LdagL=0.041 ± 0.014 [σ²=2.112]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 31%|███▏      | 314/1000 [30:37<1:22:33,  7.22s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:08<?, ?it/s, LdagL=0.0258 ± 0.0015 [σ²=0.0167]][A100%|██████████| 1/1 [00:00<00:00, 4433.73it/s, LdagL=0.0258 ± 0.0015 [σ²=0.0167]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 32%|███▏      | 315/1000 [30:45<1:25:31,  7.49s/it]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:08<?, ?it/s, LdagL=0.0252 ± 0.0020 [σ²=0.0246]][A100%|██████████| 1/1 [00:00<00:00, 5614.86it/s, LdagL=0.0252 ± 0.0020 [σ²=0.0246]]
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
- 32%|███▏      | 316/1000 [30:54<1:27:37,  7.69s/it]

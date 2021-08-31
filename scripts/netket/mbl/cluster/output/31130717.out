@@ -1,14 +1,0 @@
-WARNING:absl:No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
-seed = 1
-Starting iterative solver...
-Converged trace is  (0.9999999999998374+8.048727131850246e-16j)
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  0%|          | 0/1000 [00:00<?, ?it/s]
-  0%|          | 0/1 [00:00<?, ?it/s][A
-  0%|          | 0/1 [00:26<?, ?it/s, LdagL=8.19 ± 0.15 [σ²=128.40]][A100%|██████████| 1/1 [00:00<00:00, 10.29it/s, LdagL=8.19 ± 0.15 [σ²=128.40]]
-  0%|          | 0/1000 [00:26<?, ?it/s]
-Traceback (most recent call last):
-  File "/home/denysov/yusipov/qs/scripts/netket/mbl/cluster/ndm_vs_exact.py", line 100, in <module>
-    metrics_df.loc[it + 1, f"ldagl_mean_{W:d}"] = ss.ldagl.mean
-ValueError: Unknown format code 'd' for object of type 'float'
-srun: error: gaspra01: task 0: Exited with exit code 1

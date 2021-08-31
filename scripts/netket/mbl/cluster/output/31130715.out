@@ -1,9 +1,0 @@
-WARNING:absl:No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
-seed = 1
-Starting iterative solver...
-Converged trace is  (0.9999999999998374+8.048727131850246e-16j)
-No output specified (out=[apath|nk.logging.JsonLogger(...)]).Running the optimization but not saving the output.
-  0%|          | 0/1000 [00:00<?, ?it/s]
-  0%|          | 0/1 [00:00<?, ?it/s][Aslurmstepd: error: Detected 1 oom-kill event(s) in step 31130715.0 cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.
-srun: error: gaspra01: task 0: Out Of Memory
-slurmstepd: error: Detected 1 oom-kill event(s) in step 31130715.batch cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.
