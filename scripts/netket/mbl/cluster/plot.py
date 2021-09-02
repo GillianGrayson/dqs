@@ -3,6 +3,8 @@ import numpy as np
 import plotly.graph_objects as go
 from scripts.netket.plot.layout import add_layout
 from scripts.netket.plot.save import save_figure
+import pathlib
+import os.path
 
 run_type = 'short'
 
@@ -46,8 +48,8 @@ for W_id, W in enumerate(Ws):
 columns = [f"{x}_{target_seed:d}_W({W:0.4f})" for x in ['norm_rho_diff'] for W in Ws]
 norm_rho_diffs = [df_all.loc[target_iteration, col] for col in columns]
 
-path_save = path + '/plot/ndm_vs_exact' + f"NDM({alpha:d}_{beta:d}_{n_samples:d}_{n_iter:d})" \
-            + '/' + f"H({W:0.4f}_{U:0.4f}_{J:0.4f})_D({diss_type:d}_{diss_gamma:0.4f})"
+path_save = path + '/plot/ndm_vs_exact'
+pathlib.Path(path_save).mkdir(parents=True, exist_ok=True)
 
 fig = go.Figure()
 fig.add_trace(
