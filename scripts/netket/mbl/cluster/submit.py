@@ -22,13 +22,13 @@ seed_num = 1
 alpha = 2.0
 beta = 2.0
 n_samples = 10000
-n_iter = 1000
+n_iter = 500
 
 for W_id, W in enumerate(Ws):
     print(f"W={W:0.4f}")
 
     curr_path = path \
-                + '/' + f"NDM({alpha:d}_{beta:d}_{n_samples:d}_{n_iter:d})" \
+                + '/' + f"NDM({alpha:0.4f}_{beta:0.4f}_{n_samples:d}_{n_iter:d})" \
                 + '/' + f"H({W:0.4f}_{U:0.4f}_{J:0.4f})_D({diss_type:d}_{diss_gamma:0.4f})"
 
     config_dict = {'experiment_id': [0]}
