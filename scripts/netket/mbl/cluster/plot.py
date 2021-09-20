@@ -4,7 +4,6 @@ import plotly.graph_objects as go
 from scripts.netket.plot.layout import add_layout
 from scripts.netket.plot.save import save_figure
 import pathlib
-import os.path
 
 run_type = 'short'
 
@@ -24,7 +23,7 @@ seed_num = 1
 alpha = 2
 beta = 2
 n_samples = 10000
-n_iter = 1000
+n_iter = 500
 
 target_seed = seed_start
 target_iteration = n_iter
@@ -73,4 +72,4 @@ fig.add_trace(
 add_layout(fig, r"$W$", r"$\left\Vert \rho^{\text{exact}} - \rho^{\text{neural}} \right\Vert$",  "")
 fig.update_layout({'colorway': ['red', 'blue', "red", "red"]})
 save_figure(fig, f"{path_save}/{metric}_NDM({alpha:d}_{beta:d}_{n_samples:d})_H(var_{U:0.4f}_{J:0.4f})_D({diss_type:d}_{diss_gamma:0.4f})_seed({target_seed})_it({target_iteration})")
-df_all.to_excel(f"{path_save}/{metric}_NDM({alpha:d}_{beta:d}_{n_samples:d})_H(var_{U:0.4f}_{J:0.4f})_D({diss_type:d}_{diss_gamma:0.4f}).xlsx", index=True)
+df_all.to_excel(f"{path_save}/NDM({alpha:d}_{beta:d}_{n_samples:d})_H(var_{U:0.4f}_{J:0.4f})_D({diss_type:d}_{diss_gamma:0.4f}).xlsx", index=True)

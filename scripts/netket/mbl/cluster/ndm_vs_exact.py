@@ -103,5 +103,8 @@ for seed in seeds:
         rho_diff_conj = rho_exact - rho_neural.conjugate()
         metrics_df.loc[it + 1, f"norm_rho_diff_{seed:d}"] = la.norm(rho_diff)
         metrics_df.loc[it + 1, f"norm_rho_diff_conj_{seed:d}"] = la.norm(rho_diff_conj)
+        print(f"iteration = {it}")
+        print(f"ldagl_mean = {ss.ldagl.mean}")
+        print(f"norm_rho_diff = {la.norm(rho_diff)}")
 
     metrics_df.to_excel(f"metrics_seeds({seed_start}_{seed_shift}_{seed_num}).xlsx", index=True)

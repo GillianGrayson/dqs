@@ -19,8 +19,8 @@ seed_start = 1
 seed_shift = 1
 seed_num = 1
 
-alpha = 2
-beta = 2
+alpha = 2.0
+beta = 2.0
 n_samples = 10000
 n_iter = 1000
 
