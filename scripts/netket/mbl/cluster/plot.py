@@ -35,7 +35,8 @@ for W_id, W in enumerate(Ws):
 
     curr_path = path \
                 + '/' + f"NDM({alpha:d}_{beta:d}_{n_samples:d}_{n_iter:d})" \
-                + '/' + f"H({W:0.4f}_{U:0.4f}_{J:0.4f})_D({diss_type:d}_{diss_gamma:0.4f})"
+                + '/' + f"H({W:0.4f}_{U:0.4f}_{J:0.4f})_D({diss_type:d}_{diss_gamma:0.4f})" \
+                + '/' + f"seeds({seed_start}_{seed_shift}_{seed_num})"
 
     fn = f"{curr_path}/metrics_seeds({seed_start}_{seed_shift}_{seed_num}).xlsx"
     curr_df = pd.read_excel(fn, index_col='iteration')
@@ -71,5 +72,5 @@ fig.add_trace(
 )
 add_layout(fig, r"$W$", r"$\left\Vert \rho^{\text{exact}} - \rho^{\text{neural}} \right\Vert$",  "")
 fig.update_layout({'colorway': ['red', 'blue', "red", "red"]})
-save_figure(fig, f"{path_save}/{metric}_NDM({alpha:d}_{beta:d}_{n_samples:d})_H(var_{U:0.4f}_{J:0.4f})_D({diss_type:d}_{diss_gamma:0.4f})_seed({target_seed})_it({target_iteration})")
-df_all.to_excel(f"{path_save}/NDM({alpha:d}_{beta:d}_{n_samples:d})_H(var_{U:0.4f}_{J:0.4f})_D({diss_type:d}_{diss_gamma:0.4f}).xlsx", index=True)
+save_figure(fig, f"{path_save}/{metric}_NDM({alpha:d}_{beta:d}_{n_samples:d}_{n_iter:d})_H(var_{U:0.4f}_{J:0.4f})_D({diss_type:d}_{diss_gamma:0.4f})_seed({target_seed})_it({target_iteration})")
+df_all.to_excel(f"{path_save}/NDM({alpha:d}_{beta:d}_{n_samples:d}_{n_iter:d})_H(var_{U:0.4f}_{J:0.4f})_D({diss_type:d}_{diss_gamma:0.4f}).xlsx", index=True)

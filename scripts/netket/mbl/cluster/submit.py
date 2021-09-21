@@ -19,8 +19,8 @@ seed_start = 1
 seed_shift = 1
 seed_num = 1
 
-alpha = 2.0
-beta = 2.0
+alpha = 4.0
+beta = 4.0
 n_samples = 10000
 n_iter = 500
 
@@ -29,7 +29,8 @@ for W_id, W in enumerate(Ws):
 
     curr_path = path \
                 + '/' + f"NDM({alpha:0.4f}_{beta:0.4f}_{n_samples:d}_{n_iter:d})" \
-                + '/' + f"H({W:0.4f}_{U:0.4f}_{J:0.4f})_D({diss_type:d}_{diss_gamma:0.4f})"
+                + '/' + f"H({W:0.4f}_{U:0.4f}_{J:0.4f})_D({diss_type:d}_{diss_gamma:0.4f})" \
+                + '/' + f"seeds({seed_start}_{seed_shift}_{seed_num})"
 
     config_dict = {'experiment_id': [0]}
     config_df = pd.DataFrame(config_dict).set_index('experiment_id')
@@ -55,8 +56,16 @@ for W_id, W in enumerate(Ws):
         print(f"{fn_test} does not exist!")
 
         config_df.to_excel(f"{curr_path}/config.xlsx", index=True)
-
         if run_type == 'short':
             os.system(f"sbatch run_short.sh \"{curr_path}\"")
         elif run_type == 'medium':
             os.system(f"sbatch run_medium.sh \"{curr_path}\"")
+    else:
+        test_df = pd.read_excel(fn_test, index_col='iteration')
+        if test_df.isnull().values.any():
+
+            config_df.to_excel(f"{curr_path}/config.xlsx", index=True)
+            if run_type == 'short':
+                os.system(f"sbatch run_short.sh \"{curr_path}\"")
+            elif run_type == 'medium':
+                os.system(f"sbatch run_medium.sh \"{curr_path}\"")
