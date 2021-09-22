@@ -40,9 +40,14 @@ n_iter = 500
 target_seed = seed_start
 target_iteration = n_iter
 
-metric_keys = ['iteration_best', 'ldagl_mean', 'norm_rho_diff', 'norm_rho_diff_conj']
+metric_keys = {
+    'iteration_best': r"$\mathrm{Iterations}$", 
+    'ldagl_mean': r"$L^\dagger L$",
+    'norm_rho_diff': r"$\left\Vert \rho^{\text{exact}} - \rho^{\text{neural}} \right\Vert$",
+    'norm_rho_diff_conj': r"$\left\Vert \rho^{\text{exact}} - \rho^{\text{neural}} \right\Vert$"
+}
 
-metrics_df = pd.DataFrame(data=np.zeros(shape=(len(Ws), 1 + len(metric_keys))), columns=['W'] + metric_keys)
+metrics_df = pd.DataFrame(data=np.zeros(shape=(len(Ws), 1 + len(metric_keys))), columns=['W'] + list(metric_keys.keys()))
 metrics_df.loc[:, 'W'] = Ws
 metrics_df.set_index('W', inplace=True)
 
@@ -66,7 +71,7 @@ for W_id, W in enumerate(Ws):
             plt.imshow(np.abs(exact), origin='lower', cmap=cmap)
             plt.clim(0, cmax)
             clb = plt.colorbar()
-            clb.ax.set_title(r"$\left\Vert \rho^{\mathrm{exact}}_{n,n} \right\Vert$")
+            clb.ax.set_title(r"$\left| \rho^{\mathrm{exact}}_{n,n} \right|$")
             plt.xlabel(r"$x$")
             plt.ylabel(r"$y$")
             plt.savefig(f"{curr_path}/rho_exact_{seed}.pdf")
@@ -76,7 +81,7 @@ for W_id, W in enumerate(Ws):
             plt.imshow(np.abs(neural), origin='lower', cmap=cmap)
             plt.clim(0, cmax)
             clb = plt.colorbar()
-            clb.ax.set_title(r"$\left\Vert \rho^{\mathrm{neural}}_{n,n} \right\Vert$")
+            clb.ax.set_title(r"$\left| \rho^{\mathrm{neural}}_{n,n} \right|$")
             plt.xlabel(r"$x$")
             plt.ylabel(r"$y$")
             plt.savefig(f"{curr_path}/rho_neural_{seed}.pdf")
@@ -86,7 +91,7 @@ for W_id, W in enumerate(Ws):
             diff_rho = exact - neural
             plt.imshow(np.abs(diff_rho), origin='lower', cmap=cmap)
             clb = plt.colorbar()
-            clb.ax.set_title(r"$\left\Vert \rho^{\mathrm{exact}}_{n,n} - \rho^{\mathrm{neural}}_{n,n} \right\Vert$")
+            clb.ax.set_title(r"$\left| \rho^{\mathrm{exact}}_{n,n} - \rho^{\mathrm{neural}}_{n,n} \right|$")
             plt.xlabel(r"$x$")
             plt.ylabel(r"$y$")
             plt.savefig(f"{curr_path}/rho_diff_{seed}.pdf")
@@ -119,7 +124,7 @@ for metric_key in metric_keys:
             )
         )
     )
-    add_layout(fig, r"$W$", r"$\left\Vert \rho^{\text{exact}} - \rho^{\text{neural}} \right\Vert$",  "")
+    add_layout(fig, r"$W$", metric_keys[metric_key],  "")
     fig.update_layout({'colorway': ['red', 'blue', "red", "red"]})
     save_figure(fig, f"{path_save}/{metric_key}_NDM({alpha:d}_{beta:d}_{n_samples:d}_{n_iter:d})_H(var_{U:0.4f}_{J:0.4f})_D({diss_type:d}_{diss_gamma:0.4f})_seed({target_seed})_it({target_iteration})")
 metrics_df.to_excel(f"{path_save}/NDM({alpha:d}_{beta:d}_{n_samples:d}_{n_iter:d})_H(var_{U:0.4f}_{J:0.4f})_D({diss_type:d}_{diss_gamma:0.4f}).xlsx", index=True)
