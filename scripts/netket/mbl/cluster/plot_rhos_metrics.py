@@ -5,6 +5,7 @@ from scripts.netket.plot.layout import add_layout
 from scripts.netket.plot.save import save_figure
 import pathlib
 import socket
+import matplotlib.pyplot as plt
 
 
 host_name = socket.gethostname()
@@ -16,6 +17,8 @@ if host_name == "newton":
     path = '/data/biophys/denysov/yusipov/qs'
 elif host_name == "master":
     path = '/common/home/yusipov_i/data/qs'
+
+is_plot_mtx = True
 
 N = 8
 Ws = np.linspace(0.0, 20.0, 101)
@@ -52,6 +55,44 @@ for W_id, W in enumerate(Ws):
                 + '/' + f"seeds({seed_start}_{seed_shift}_{seed_num})"
 
     for seed in seeds:
+        
+        if is_plot_mtx:
+            exact = np.load(f"{curr_path}/rho_exact_{seed}.npy")
+            neural = np.load(f"{curr_path}/rho_neural_{seed}.npy")
+
+            cmax = np.amax([np.abs(exact), np.abs(neural)])
+            cmap = plt.get_cmap('Blues')
+
+            plt.imshow(np.abs(exact), origin='lower', cmap=cmap)
+            plt.clim(0, cmax)
+            clb = plt.colorbar()
+            clb.ax.set_title(r"$\left\Vert \rho^{\mathrm{exact}}_{n,n} \right\Vert$")
+            plt.xlabel(r"$x$")
+            plt.ylabel(r"$y$")
+            plt.savefig(f"{curr_path}/rho_exact_{seed}.pdf")
+            plt.savefig(f"{curr_path}/rho_exact_{seed}.png")
+            plt.close()
+
+            plt.imshow(np.abs(neural), origin='lower', cmap=cmap)
+            plt.clim(0, cmax)
+            clb = plt.colorbar()
+            clb.ax.set_title(r"$\left\Vert \rho^{\mathrm{neural}}_{n,n} \right\Vert$")
+            plt.xlabel(r"$x$")
+            plt.ylabel(r"$y$")
+            plt.savefig(f"{curr_path}/rho_neural_{seed}.pdf")
+            plt.savefig(f"{curr_path}/rho_neural_{seed}.png")
+            plt.close()
+
+            diff_rho = exact - neural
+            plt.imshow(np.abs(diff_rho), origin='lower', cmap=cmap)
+            clb = plt.colorbar()
+            clb.ax.set_title(r"$\left\Vert \rho^{\mathrm{exact}}_{n,n} - \rho^{\mathrm{neural}}_{n,n} \right\Vert$")
+            plt.xlabel(r"$x$")
+            plt.ylabel(r"$y$")
+            plt.savefig(f"{curr_path}/rho_diff_{seed}.pdf")
+            plt.savefig(f"{curr_path}/rho_diff_{seed}.png")
+            plt.close()
+
         fn = f"{curr_path}/metrics_{seed}.xlsx"
         curr_df = pd.read_excel(fn, index_col='metrics')
         for metric_key in metric_keys:
