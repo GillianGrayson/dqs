@@ -5,7 +5,7 @@ $dir = getcwd;
 
  
 
-for($val = 2397091; ($val <= 2397102); $val+=1)
+for($val = 33179711; ($val <= 33179811); $val+=1)
 {
 	system "scancel $val";
 }
