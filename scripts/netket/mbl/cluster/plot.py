@@ -4,10 +4,18 @@ import plotly.graph_objects as go
 from scripts.netket.plot.layout import add_layout
 from scripts.netket.plot.save import save_figure
 import pathlib
+import socket
+
+
+host_name = socket.gethostname()
+print(host_name)
 
 run_type = 'short'
 
-path = '/data/biophys/denysov/yusipov/qs'
+if host_name == "newton":
+    path = '/data/biophys/denysov/yusipov/qs'
+elif host_name == "master":
+    path = '/common/home/yusipov_i/data/qs'
 
 N = 8
 Ws = np.linspace(0.0, 20.0, 101)

@@ -2,11 +2,17 @@ import pathlib
 import os.path
 import pandas as pd
 import numpy as np
+import socket
 
+host_name = socket.gethostname()
+print(host_name)
 
 run_type = 'short'
 
-path = '/data/biophys/denysov/yusipov/qs'
+if host_name == "newton":
+    path = '/data/biophys/denysov/yusipov/qs'
+elif host_name == "master":
+    path = '/common/home/yusipov_i/data/qs'
 
 N = 8
 Ws = np.linspace(0.0, 20.0, 101)
@@ -19,8 +25,8 @@ seed_start = 1
 seed_shift = 1
 seed_num = 1
 
-alpha = 4.0
-beta = 4.0
+alpha = 2.0
+beta = 2.0
 n_samples = 10000
 n_iter = 500
 
@@ -54,18 +60,29 @@ for W_id, W in enumerate(Ws):
 
     if not os.path.isfile(fn_test):
         print(f"{fn_test} does not exist!")
-
         config_df.to_excel(f"{curr_path}/config.xlsx", index=True)
-        if run_type == 'short':
-            os.system(f"sbatch run_short.sh \"{curr_path}\"")
-        elif run_type == 'medium':
-            os.system(f"sbatch run_medium.sh \"{curr_path}\"")
+        if host_name == "newton":
+            if run_type == 'short':
+                os.system(f"sbatch mpipks_run_short.sh \"{curr_path}\"")
+            elif run_type == 'medium':
+                os.system(f"sbatch mpipks_run_medium.sh \"{curr_path}\"")
+        elif host_name == "master":
+            if run_type == 'short':
+                os.system(f"sbatch unn_run_short.sh \"{curr_path}\"")
+            elif run_type == 'medium':
+                os.system(f"sbatch unn_run_medium.sh \"{curr_path}\"")
     else:
         test_df = pd.read_excel(fn_test, index_col='iteration')
         if test_df.isnull().values.any():
-
+            print("Need recalc")
             config_df.to_excel(f"{curr_path}/config.xlsx", index=True)
-            if run_type == 'short':
-                os.system(f"sbatch run_short.sh \"{curr_path}\"")
-            elif run_type == 'medium':
-                os.system(f"sbatch run_medium.sh \"{curr_path}\"")
+            if host_name == "newton":
+                if run_type == 'short':
+                    os.system(f"sbatch mpipks_run_short.sh \"{curr_path}\"")
+                elif run_type == 'medium':
+                    os.system(f"sbatch mpipks_run_medium.sh \"{curr_path}\"")
+            elif host_name == "master":
+                if run_type == 'short':
+                    os.system(f"sbatch unn_run_short.sh \"{curr_path}\"")
+                elif run_type == 'medium':
+                    os.system(f"sbatch unn_run_medium.sh \"{curr_path}\"")
