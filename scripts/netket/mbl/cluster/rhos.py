@@ -72,7 +72,7 @@ for seed in seeds:
     sa = nk.sampler.MetropolisExchange(lind.hilbert, graph=sa_graph)
 
     # Optimizer
-    op = nk.optimizer.Sgd(0.01)
+    op = nk.optimizer.Adam(0.01)
     sr = nk.optimizer.SR(diag_shift=0.01)
 
     # Variational state
@@ -80,20 +80,45 @@ for seed in seeds:
     vs.init_parameters(nk.nn.initializers.normal(stddev=0.01))
 
     # Driver
-    ss = nk.SteadyState(lind, op, variational_state=vs, preconditioner=sr)
+    #ss = nk.SteadyState(lind, optimizer=op, variational_state=vs, preconditioner=sr)
+    ss = nk.SteadyState(lind, optimizer=op, variational_state=vs)
 
     # Calculate exact rho
     rho_exact = nk.exact.steady_state(lind, method="iterative", sparse=True, tol=1e-10)
-    out = ss.run(n_iter=n_iter)
-    rho_neural = np.array(ss.state.to_matrix())
-    rho_diff = rho_exact - rho_neural
-    rho_diff_conj = rho_exact - rho_neural.conjugate()
+
+    rho_neural_best = np.zeros(shape=rho_exact.shape)
+    ldagl_mean_best = 1e10
+    norm_rho_diff_best = 1e10
+    norm_rho_diff_conj_best = 1e10
+    iteration_best = -1
+
+    for it in range(n_iter):
+        out = ss.run(n_iter=1, show_progress=False)
+        rho_neural = np.array(ss.state.to_matrix())
+        rho_diff = rho_exact - rho_neural
+        rho_diff_conj = rho_exact - rho_neural.conjugate()
+        ldagl_mean = ss.ldagl.mean
+        ldagl_error_of_mean = ss.ldagl.error_of_mean
+        ldagl_variance = ss.ldagl.variance
+        norm_rho_diff = la.norm(rho_diff)
+        norm_rho_diff_conj = la.norm(rho_diff_conj)
+        print(f"iteration = {it}")
+        print(f"ldagl = {str(ss.ldagl)}")
+        print(f"norm_rho_diff = {norm_rho_diff}")
+        print(f"norm_rho_diff_conj = {norm_rho_diff_conj}")
+
+        if ldagl_mean_best > ldagl_mean:
+            iteration_best = it
+            ldagl_mean_best = ldagl_mean
+            norm_rho_diff_best = norm_rho_diff
+            norm_rho_diff_conj_best = norm_rho_diff_conj
+            rho_neural_best = rho_neural
 
     np.save(f"rho_exact_{seed}.npy", rho_exact)
-    np.save(f"rho_neural_{seed}.npy", rho_neural)
+    np.save(f"rho_neural_{seed}.npy", rho_neural_best)
 
-    metrics_dict = {'metrics': ['ldagl_mean', 'norm_rho_diff', 'norm_rho_diff_conj']}
-    metrics_dict['values'] = [ss.ldagl.mean, la.norm(rho_diff), la.norm(rho_diff_conj)]
+    metrics_dict = {'metrics': ['iteration_best', 'ldagl_mean', 'norm_rho_diff', 'norm_rho_diff_conj']}
+    metrics_dict['values'] = [iteration_best, ldagl_mean_best, norm_rho_diff_best, norm_rho_diff_conj_best]
     metrics_df = pd.DataFrame(metrics_dict)
     metrics_df.set_index('metrics')
     metrics_df.to_excel(f"metrics_{seed}.xlsx", index=True)

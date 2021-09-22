@@ -7,7 +7,7 @@ import socket
 host_name = socket.gethostname()
 print(host_name)
 
-run_type = 'short'
+run_type = 'medium'
 
 if host_name == "newton":
     path = '/data/biophys/denysov/yusipov/qs'
@@ -15,7 +15,7 @@ elif host_name == "master":
     path = '/common/home/yusipov_i/data/qs'
 
 N = 8
-Ws = np.linspace(0.0, 20.0, 101)
+Ws = np.linspace(0.0, 20.0, 11)
 U = 1.0
 J = 1.0
 diss_type = 1

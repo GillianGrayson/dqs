@@ -11,7 +11,7 @@ mkdir -p $1
 cd $scratch
 cp $1/config.xlsx .
 
-srun python $code_base/ndm_vs_exact.py
+srun python $code_base/rhos.py
 
 cp -r $scratch/* $1
 rm -r $scratch/*
