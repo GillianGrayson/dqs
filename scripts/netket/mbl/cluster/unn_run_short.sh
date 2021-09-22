@@ -10,4 +10,6 @@ export JAX_PLATFORM_NAME="cpu"
 
 code_dir=/common/home/yusipov_i/source/qs/scripts/netket/mbl/cluster
 
+cd $1
+
 srun python $code_dir/rhos.py

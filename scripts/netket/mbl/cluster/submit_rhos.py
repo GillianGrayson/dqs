@@ -83,6 +83,6 @@ for W_id, W in enumerate(Ws):
                     os.system(f"sbatch mpipks_run_medium.sh \"{curr_path}\"")
             elif host_name == "master":
                 if run_type == 'short':
-                    os.system(f"sbatch unn_run_short.sh")
+                    os.system(f"sbatch unn_run_short.sh \"{curr_path}\"")
                 elif run_type == 'medium':
-                    os.system(f"sbatch unn_run_medium.sh")
+                    os.system(f"sbatch unn_run_medium.sh \"{curr_path}\"")

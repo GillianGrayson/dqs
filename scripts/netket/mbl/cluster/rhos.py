@@ -7,6 +7,8 @@ from numpy import linalg as la
 
 config_df = pd.read_excel('config.xlsx', index_col='experiment_id')
 
+print(config_df.to_string())
+
 N = int(config_df.at[0, 'N'])
 W = float(config_df.at[0, 'W'])
 U = float(config_df.at[0, 'U'])
