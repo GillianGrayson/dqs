@@ -120,5 +120,5 @@ for seed in seeds:
     metrics_dict = {'metrics': ['iteration_best', 'ldagl_mean', 'norm_rho_diff', 'norm_rho_diff_conj']}
     metrics_dict['values'] = [iteration_best, ldagl_mean_best, norm_rho_diff_best, norm_rho_diff_conj_best]
     metrics_df = pd.DataFrame(metrics_dict)
-    metrics_df.set_index('metrics')
+    metrics_df.set_index('metrics', inplace=True)
     metrics_df.to_excel(f"metrics_{seed}.xlsx", index=True)
