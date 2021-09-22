@@ -8,4 +8,4 @@
 
 code_dir=/common/home/yusipov_i/source/qs/scripts/netket/mbl/cluster
 
-srun python $code_dir/ndm_vs_exact.py
+srun python $code_dir/rhos.py
