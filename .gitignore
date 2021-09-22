@@ -147,3 +147,5 @@ wandb/
 .autoenv
 
 *.out
+
+scripts/netket/mbl/cluster/output/
