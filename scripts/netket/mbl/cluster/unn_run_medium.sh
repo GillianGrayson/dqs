@@ -4,7 +4,6 @@
 #SBATCH --time=72:00:00
 #SBATCH --partition=a100
 #SBATCH --gres=gpu:1
-#SBATCH --mem=4000
 #SBATCH --output=/common/home/yusipov_i/source/qs/scripts/netket/mbl/cluster/output/%j.txt
 
 code_dir=/common/home/yusipov_i/source/qs/scripts/netket/mbl/cluster

@@ -1,0 +1,6 @@
+2021-09-22 12:51:05.904262: W external/org_tensorflow/tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2021-09-22 12:51:08.635439: W external/org_tensorflow/tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2021-09-22 12:51:08.691930: W external/org_tensorflow/tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2021-09-22 12:51:25.978598: W external/org_tensorflow/tensorflow/stream_executor/gpu/asm_compiler.cc:80] Couldn't get ptxas version string: INTERNAL: Running ptxas --version returned 32512
+2021-09-22 12:51:26.000830: F external/org_tensorflow/tensorflow/compiler/xla/service/gpu/nvptx_compiler.cc:480] ptxas returned an error during compilation of ptx to sass: 'INTERNAL: ptxas exited with non-zero error code 32512, output: '  If the error message indicates that a file could not be written, please verify that sufficient filesystem space is provided.
+srun: error: node80: task 0: Aborted

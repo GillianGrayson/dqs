@@ -4,8 +4,9 @@
 #SBATCH --time=72:00:00
 #SBATCH --partition=gpu
 #SBATCH --oversubscribe
-#SBATCH --mem=4000
 #SBATCH --output=/common/home/yusipov_i/source/qs/scripts/netket/mbl/cluster/output/%j.txt
+
+export JAX_PLATFORM_NAME="cpu"
 
 code_dir=/common/home/yusipov_i/source/qs/scripts/netket/mbl/cluster
 
