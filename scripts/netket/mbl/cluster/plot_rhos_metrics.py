@@ -38,9 +38,6 @@ beta = 2
 n_samples = 10000
 n_iter = 500
 
-target_seed = seed_start
-target_iteration = n_iter
-
 metric_keys = {
     'iteration_best': r"$\mathrm{Iterations}$",
     'ldagl_mean': r"$L^\dagger L$",
@@ -55,6 +52,16 @@ metric_keys = {
 metrics_df = pd.DataFrame(data=np.zeros(shape=(len(Ws), 1 + len(metric_keys))), columns=['W'] + list(metric_keys.keys()))
 metrics_df.loc[:, 'W'] = Ws
 metrics_df.set_index('W', inplace=True)
+
+global_seeds = []
+for seed_start_chunk in seed_start_chunks:
+    seeds = np.linspace(seed_start_chunk, seed_start_chunk + seed_shift * (seed_num - 1), seed_num, dtype=int)
+    global_seeds.extend(list(seeds))
+global_df = pd.DataFrame(
+    data=np.zeros(shape=(seed_chunks * seed_num, len(Ws) * len(metric_keys))),
+    columns=[f"W({W:0.2f})_{m}" for W in Ws for m in metric_keys],
+    index=global_seeds
+)
 
 for W_id, W in enumerate(Ws):
     print(f"W={W:0.4f}")
@@ -111,6 +118,7 @@ for W_id, W in enumerate(Ws):
             curr_df = pd.read_excel(fn, index_col='metrics')
             for metric_key in metric_keys:
                 metrics_df.loc[W, metric_key] += curr_df.loc[metric_key, 'values'] / seed_num
+                global_df.loc[seed, f"W({W:0.2f})_{metric_key}"] = curr_df.loc[metric_key, 'values']
 
 path_save = path + '/plot/rhos/metrics'
 pathlib.Path(path_save).mkdir(parents=True, exist_ok=True)
@@ -135,5 +143,6 @@ for metric_key in metric_keys:
     )
     add_layout(fig, r"$W$", metric_keys[metric_key],  "")
     fig.update_layout({'colorway': ['red', 'blue', "red", "red"]})
-    save_figure(fig, f"{path_save}/{metric_key}_NDM({alpha:d}_{beta:d}_{n_samples:d}_{n_iter:d})_H(var_{U:0.4f}_{J:0.4f})_D({diss_type:d}_{diss_gamma:0.4f})_seed({target_seed})_it({target_iteration})")
-metrics_df.to_excel(f"{path_save}/NDM({alpha:d}_{beta:d}_{n_samples:d}_{n_iter:d})_H(var_{U:0.4f}_{J:0.4f})_D({diss_type:d}_{diss_gamma:0.4f}).xlsx", index=True)
+    save_figure(fig, f"{path_save}/{metric_key}_NDM({alpha:d}_{beta:d}_{n_samples:d}_{n_iter:d})_H(var_{U:0.4f}_{J:0.4f})_D({diss_type:d}_{diss_gamma:0.4f})_nSeeds({len(global_seeds)})")
+metrics_df.to_excel(f"{path_save}/average_NDM({alpha:d}_{beta:d}_{n_samples:d}_{n_iter:d})_H(var_{U:0.4f}_{J:0.4f})_D({diss_type:d}_{diss_gamma:0.4f})_nSeeds({len(global_seeds)}).xlsx", index=True)
+global_df.to_excel(f"{path_save}/global_NDM({alpha:d}_{beta:d}_{n_samples:d}_{n_iter:d})_H(var_{U:0.4f}_{J:0.4f})_D({diss_type:d}_{diss_gamma:0.4f})_nSeeds({len(global_seeds)}).xlsx", index=True)
