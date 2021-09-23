@@ -30,7 +30,8 @@ diss_gamma = 0.1
 seed_start = 1
 seed_shift = 1
 seed_num = 1
-seeds = np.linspace(seed_start, seed_start + seed_shift * (seed_num - 1), seed_num, dtype=int)
+seed_chunks = 10
+seed_start_chunks = np.linspace(seed_start, seed_start + (seed_chunks-1) * seed_num, seed_chunks, dtype=int)
 
 alpha = 2
 beta = 2
@@ -58,54 +59,58 @@ metrics_df.set_index('W', inplace=True)
 for W_id, W in enumerate(Ws):
     print(f"W={W:0.4f}")
 
-    curr_path = path \
-                + '/' + f"NDM({alpha:0.4f}_{beta:0.4f}_{n_samples:d}_{n_iter:d})" \
-                + '/' + f"H({W:0.4f}_{U:0.4f}_{J:0.4f})_D({diss_type:d}_{diss_gamma:0.4f})" \
-                + '/' + f"seeds({seed_start}_{seed_shift}_{seed_num})"
+    for seed_start_chunk in seed_start_chunks:
 
-    for seed in seeds:
-        
-        if is_plot_mtx:
-            exact = np.load(f"{curr_path}/rho_exact_{seed}.npy")
-            neural = np.load(f"{curr_path}/rho_neural_{seed}.npy")
+        seeds = np.linspace(seed_start_chunk, seed_start_chunk + seed_shift * (seed_num - 1), seed_num, dtype=int)
 
-            cmax = np.amax([np.abs(exact), np.abs(neural)])
-            cmap = plt.get_cmap('Blues')
+        curr_path = path \
+                    + '/' + f"NDM({alpha:0.4f}_{beta:0.4f}_{n_samples:d}_{n_iter:d})" \
+                    + '/' + f"H({W:0.4f}_{U:0.4f}_{J:0.4f})_D({diss_type:d}_{diss_gamma:0.4f})" \
+                    + '/' + f"seeds({seed_start_chunk}_{seed_shift}_{seed_num})"
 
-            plt.imshow(np.abs(exact), origin='lower', cmap=cmap)
-            plt.clim(0, cmax)
-            clb = plt.colorbar()
-            clb.ax.set_title(r"$\left| \rho^{\mathrm{exact}}_{n,n} \right|$")
-            plt.xlabel(r"$x$")
-            plt.ylabel(r"$y$")
-            plt.savefig(f"{curr_path}/rho_exact_{seed}.pdf")
-            plt.savefig(f"{curr_path}/rho_exact_{seed}.png")
-            plt.close()
+        for seed in seeds:
 
-            plt.imshow(np.abs(neural), origin='lower', cmap=cmap)
-            plt.clim(0, cmax)
-            clb = plt.colorbar()
-            clb.ax.set_title(r"$\left| \rho^{\mathrm{neural}}_{n,n} \right|$")
-            plt.xlabel(r"$x$")
-            plt.ylabel(r"$y$")
-            plt.savefig(f"{curr_path}/rho_neural_{seed}.pdf")
-            plt.savefig(f"{curr_path}/rho_neural_{seed}.png")
-            plt.close()
+            if is_plot_mtx:
+                exact = np.load(f"{curr_path}/rho_exact_{seed}.npy")
+                neural = np.load(f"{curr_path}/rho_neural_{seed}.npy")
 
-            diff_rho = exact - neural
-            plt.imshow(np.abs(diff_rho), origin='lower', cmap=cmap)
-            clb = plt.colorbar()
-            clb.ax.set_title(r"$\left| \rho^{\mathrm{exact}}_{n,n} - \rho^{\mathrm{neural}}_{n,n} \right|$")
-            plt.xlabel(r"$x$")
-            plt.ylabel(r"$y$")
-            plt.savefig(f"{curr_path}/rho_diff_{seed}.pdf")
-            plt.savefig(f"{curr_path}/rho_diff_{seed}.png")
-            plt.close()
+                cmax = np.amax([np.abs(exact), np.abs(neural)])
+                cmap = plt.get_cmap('Blues')
 
-        fn = f"{curr_path}/metrics_{seed}.xlsx"
-        curr_df = pd.read_excel(fn, index_col='metrics')
-        for metric_key in metric_keys:
-            metrics_df.loc[W, metric_key] += curr_df.loc[metric_key, 'values'] / seed_num
+                plt.imshow(np.abs(exact), origin='lower', cmap=cmap)
+                plt.clim(0, cmax)
+                clb = plt.colorbar()
+                clb.ax.set_title(r"$\left| \rho^{\mathrm{exact}}_{n,n} \right|$")
+                plt.xlabel(r"$x$")
+                plt.ylabel(r"$y$")
+                plt.savefig(f"{curr_path}/rho_exact_{seed}.pdf")
+                plt.savefig(f"{curr_path}/rho_exact_{seed}.png")
+                plt.close()
+
+                plt.imshow(np.abs(neural), origin='lower', cmap=cmap)
+                plt.clim(0, cmax)
+                clb = plt.colorbar()
+                clb.ax.set_title(r"$\left| \rho^{\mathrm{neural}}_{n,n} \right|$")
+                plt.xlabel(r"$x$")
+                plt.ylabel(r"$y$")
+                plt.savefig(f"{curr_path}/rho_neural_{seed}.pdf")
+                plt.savefig(f"{curr_path}/rho_neural_{seed}.png")
+                plt.close()
+
+                diff_rho = exact - neural
+                plt.imshow(np.abs(diff_rho), origin='lower', cmap=cmap)
+                clb = plt.colorbar()
+                clb.ax.set_title(r"$\left| \rho^{\mathrm{exact}}_{n,n} - \rho^{\mathrm{neural}}_{n,n} \right|$")
+                plt.xlabel(r"$x$")
+                plt.ylabel(r"$y$")
+                plt.savefig(f"{curr_path}/rho_diff_{seed}.pdf")
+                plt.savefig(f"{curr_path}/rho_diff_{seed}.png")
+                plt.close()
+
+            fn = f"{curr_path}/metrics_{seed}.xlsx"
+            curr_df = pd.read_excel(fn, index_col='metrics')
+            for metric_key in metric_keys:
+                metrics_df.loc[W, metric_key] += curr_df.loc[metric_key, 'values'] / seed_num
 
 path_save = path + '/plot/rhos/metrics'
 pathlib.Path(path_save).mkdir(parents=True, exist_ok=True)
