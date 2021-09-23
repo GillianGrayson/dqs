@@ -41,10 +41,14 @@ target_seed = seed_start
 target_iteration = n_iter
 
 metric_keys = {
-    'iteration_best': r"$\mathrm{Iterations}$", 
+    'iteration_best': r"$\mathrm{Iterations}$",
     'ldagl_mean': r"$L^\dagger L$",
     'norm_rho_diff': r"$\left\Vert \rho^{\text{exact}} - \rho^{\text{neural}} \right\Vert$",
-    'norm_rho_diff_conj': r"$\left\Vert \rho^{\text{exact}} - \rho^{\text{neural}} \right\Vert$"
+    'norm_rho_diff_conj': r"$\left\Vert \rho^{\text{exact}} - \rho^{\text{neural}} \right\Vert$",
+    'trace_norm': r"$\left\Vert \rho^{\text{exact}} - \rho^{\text{neural}} \right\Vert_{\mathrm{TR}}$",
+    'trace_norm_conj': r"$\left\Vert \rho^{\text{exact}} - \rho^{\text{neural}} \right\Vert_{\mathrm{TR}}$",
+    'fidelity_diff': r"$1 - \mathrm{Fidelity}$",
+    'fidelity_diff_conj': r"$1 - \mathrm{Fidelity}$"
 }
 
 metrics_df = pd.DataFrame(data=np.zeros(shape=(len(Ws), 1 + len(metric_keys))), columns=['W'] + list(metric_keys.keys()))
