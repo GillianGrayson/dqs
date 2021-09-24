@@ -18,7 +18,7 @@ if host_name == "newton":
 elif host_name == "master":
     path = '/common/home/yusipov_i/data/qs'
 
-is_plot_mtx = True
+is_plot_mtx = False
 
 N = 8
 Ws = np.linspace(0.0, 20.0, 101)
@@ -30,7 +30,7 @@ diss_gamma = 0.1
 seed_start = 1
 seed_shift = 1
 seed_num = 1
-seed_chunks = 10
+seed_chunks = 50
 seed_start_chunks = np.linspace(seed_start, seed_start + (seed_chunks-1) * seed_num, seed_chunks, dtype=int)
 
 alpha = 2
@@ -53,20 +53,43 @@ metrics_df = pd.DataFrame(data=np.zeros(shape=(len(Ws), 1 + len(metric_keys))), 
 metrics_df.loc[:, 'W'] = Ws
 metrics_df.set_index('W', inplace=True)
 
+bad_chunks = set()
+for W_id, W in enumerate(Ws):
+    print(f"W={W:0.4f}")
+    for seed_start_chunk in seed_start_chunks:
+        seeds = np.linspace(seed_start_chunk, seed_start_chunk + seed_shift * (seed_num - 1), seed_num, dtype=int)
+        curr_path = path \
+                    + '/' + f"NDM({alpha:0.4f}_{beta:0.4f}_{n_samples:d}_{n_iter:d})" \
+                    + '/' + f"H({W:0.4f}_{U:0.4f}_{J:0.4f})_D({diss_type:d}_{diss_gamma:0.4f})" \
+                    + '/' + f"seeds({seed_start_chunk}_{seed_shift}_{seed_num})"
+
+        for seed in seeds:
+            fn = f"{curr_path}/metrics_{seed}.xlsx"
+            curr_df = pd.read_excel(fn, index_col='metrics')
+            obs = curr_df.at['fidelity_diff', 'values']
+            if obs < 0 or obs > 1:
+                print(obs)
+                bad_chunks.add(seed_start_chunk)
+
+print(bad_chunks)
+
+passed_chunks = list(set(seed_start_chunks) - set(bad_chunks))
+
 global_seeds = []
-for seed_start_chunk in seed_start_chunks:
+for seed_start_chunk in passed_chunks:
     seeds = np.linspace(seed_start_chunk, seed_start_chunk + seed_shift * (seed_num - 1), seed_num, dtype=int)
     global_seeds.extend(list(seeds))
 global_df = pd.DataFrame(
-    data=np.zeros(shape=(seed_chunks * seed_num, len(Ws) * len(metric_keys))),
+    data=np.zeros(shape=(len(passed_chunks) * seed_num, len(Ws) * len(metric_keys))),
     columns=[f"W({W:0.2f})_{m}" for W in Ws for m in metric_keys],
     index=global_seeds
 )
 
+
 for W_id, W in enumerate(Ws):
     print(f"W={W:0.4f}")
 
-    for seed_start_chunk in seed_start_chunks:
+    for seed_start_chunk in passed_chunks:
 
         seeds = np.linspace(seed_start_chunk, seed_start_chunk + seed_shift * (seed_num - 1), seed_num, dtype=int)
 
@@ -117,7 +140,7 @@ for W_id, W in enumerate(Ws):
             fn = f"{curr_path}/metrics_{seed}.xlsx"
             curr_df = pd.read_excel(fn, index_col='metrics')
             for metric_key in metric_keys:
-                metrics_df.loc[W, metric_key] += curr_df.loc[metric_key, 'values'] / seed_num
+                metrics_df.loc[W, metric_key] += curr_df.loc[metric_key, 'values'] / len(global_seeds)
                 global_df.loc[seed, f"W({W:0.2f})_{metric_key}"] = curr_df.loc[metric_key, 'values']
 
 path_save = path + '/plot/rhos/metrics'

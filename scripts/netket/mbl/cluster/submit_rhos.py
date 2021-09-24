@@ -24,7 +24,7 @@ diss_gamma = 0.1
 seed_start = 1
 seed_shift = 1
 seed_num = 1
-seed_chunks = 10
+seed_chunks = 50
 seed_start_chunks = np.linspace(seed_start, seed_start + (seed_chunks-1) * seed_num, seed_chunks, dtype=int)
 
 alpha = 2.0
