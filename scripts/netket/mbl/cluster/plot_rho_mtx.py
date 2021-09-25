@@ -18,16 +18,16 @@ if host_name == "newton":
 elif host_name == "master":
     path = '/common/home/yusipov_i/data/qs'
 
-is_cmax = True
+is_cmax = False
 
 N = 8
-W = 0.0
+W = 20.0
 U = 1.0
 J = 1.0
 diss_type = 1
 diss_gamma = 0.1
 
-seed_start_chunk = 25
+seed_start_chunk = 29
 seed = seed_start_chunk
 seed_shift = 1
 seed_num = 1
@@ -42,9 +42,8 @@ curr_path = path \
             + '/' + f"H({W:0.4f}_{U:0.4f}_{J:0.4f})_D({diss_type:d}_{diss_gamma:0.4f})" \
             + '/' + f"seeds({seed_start_chunk}_{seed_shift}_{seed_num})"
 
-path_save = path + '/plot/rhos/mtx'
+path_save = path + f"/plot/rhos/mtx/W_{W:0.4f}"
 pathlib.Path(path_save).mkdir(parents=True, exist_ok=True)
-
 
 
 exact = np.load(f"{curr_path}/rho_exact_{seed}.npy")
@@ -60,8 +59,8 @@ clb = plt.colorbar()
 clb.ax.set_title(r"$\left| \rho^{\mathrm{exact}}_{n,n} \right|$")
 plt.xlabel(r"$x$")
 plt.ylabel(r"$y$")
-plt.savefig(f"{path_save}/rho_exact_NDM({alpha:d}_{beta:d}_{n_samples:d}_{n_iter:d})_H(var_{U:0.4f}_{J:0.4f})_D({diss_type:d}_{diss_gamma:0.4f})_seed({seed}).pdf")
-plt.savefig(f"{path_save}/rho_exact_NDM({alpha:d}_{beta:d}_{n_samples:d}_{n_iter:d})_H(var_{U:0.4f}_{J:0.4f})_D({diss_type:d}_{diss_gamma:0.4f})_seed({seed}).png")
+plt.savefig(f"{path_save}/rho_exact_NDM({alpha:d}_{beta:d}_{n_samples:d}_{n_iter:d})_H({W:0.4f}_{U:0.4f}_{J:0.4f})_D({diss_type:d}_{diss_gamma:0.4f})_seed({seed}).pdf")
+plt.savefig(f"{path_save}/rho_exact_NDM({alpha:d}_{beta:d}_{n_samples:d}_{n_iter:d})_H({W:0.4f}_{U:0.4f}_{J:0.4f})_D({diss_type:d}_{diss_gamma:0.4f})_seed({seed}).png")
 plt.close()
 
 plt.imshow(np.abs(neural), origin='lower', cmap=cmap)
@@ -71,8 +70,8 @@ clb = plt.colorbar()
 clb.ax.set_title(r"$\left| \rho^{\mathrm{neural}}_{n,n} \right|$")
 plt.xlabel(r"$x$")
 plt.ylabel(r"$y$")
-plt.savefig(f"{path_save}/rho_neural_NDM({alpha:d}_{beta:d}_{n_samples:d}_{n_iter:d})_H(var_{U:0.4f}_{J:0.4f})_D({diss_type:d}_{diss_gamma:0.4f})_seed({seed}).pdf")
-plt.savefig(f"{path_save}/rho_neural_NDM({alpha:d}_{beta:d}_{n_samples:d}_{n_iter:d})_H(var_{U:0.4f}_{J:0.4f})_D({diss_type:d}_{diss_gamma:0.4f})_seed({seed}).png")
+plt.savefig(f"{path_save}/rho_neural_NDM({alpha:d}_{beta:d}_{n_samples:d}_{n_iter:d})_H({W:0.4f}_{U:0.4f}_{J:0.4f})_D({diss_type:d}_{diss_gamma:0.4f})_seed({seed}).pdf")
+plt.savefig(f"{path_save}/rho_neural_NDM({alpha:d}_{beta:d}_{n_samples:d}_{n_iter:d})_H({W:0.4f}_{U:0.4f}_{J:0.4f})_D({diss_type:d}_{diss_gamma:0.4f})_seed({seed}).png")
 plt.close()
 
 diff_rho = exact - neural
@@ -81,6 +80,6 @@ clb = plt.colorbar()
 clb.ax.set_title(r"$\left| \rho^{\mathrm{exact}}_{n,n} - \rho^{\mathrm{neural}}_{n,n} \right|$")
 plt.xlabel(r"$x$")
 plt.ylabel(r"$y$")
-plt.savefig(f"{path_save}/rho_diff_NDM({alpha:d}_{beta:d}_{n_samples:d}_{n_iter:d})_H(var_{U:0.4f}_{J:0.4f})_D({diss_type:d}_{diss_gamma:0.4f})_seed({seed}).pdf")
-plt.savefig(f"{path_save}/rho_diff_NDM({alpha:d}_{beta:d}_{n_samples:d}_{n_iter:d})_H(var_{U:0.4f}_{J:0.4f})_D({diss_type:d}_{diss_gamma:0.4f})_seed({seed}).png")
+plt.savefig(f"{path_save}/rho_diff_NDM({alpha:d}_{beta:d}_{n_samples:d}_{n_iter:d})_H({W:0.4f}_{U:0.4f}_{J:0.4f})_D({diss_type:d}_{diss_gamma:0.4f})_seed({seed}).pdf")
+plt.savefig(f"{path_save}/rho_diff_NDM({alpha:d}_{beta:d}_{n_samples:d}_{n_iter:d})_H({W:0.4f}_{U:0.4f}_{J:0.4f})_D({diss_type:d}_{diss_gamma:0.4f})_seed({seed}).png")
 plt.close()
