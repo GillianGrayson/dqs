@@ -149,3 +149,7 @@ wandb/
 *.out
 
 scripts/netket/mbl/cluster/output/
+
+*.pdf
+
+*.png
