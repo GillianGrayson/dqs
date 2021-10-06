@@ -1,8 +1,4 @@
-import pandas as pd
 import numpy as np
-import plotly.graph_objects as go
-from scripts.netket.plot.layout import add_layout
-from scripts.netket.plot.save import save_figure
 import pathlib
 import socket
 import matplotlib.pyplot as plt

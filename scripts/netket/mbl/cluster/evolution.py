@@ -6,11 +6,8 @@ from numpy import linalg as la
 from scipy.linalg import sqrtm
 from scripts.netket.mbl.model import get_mbl_model
 import plotly.graph_objects as go
-from scripts.netket.plot.layout import add_layout
-from scripts.netket.plot.save import save_figure
-import pathlib
-import socket
-
+from scripts.plot.routines.layout import add_layout
+from scripts.plot.routines.save import save_figure
 
 config_df = pd.read_excel('config.xlsx', index_col='experiment_id')
 
