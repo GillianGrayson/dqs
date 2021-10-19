@@ -14,8 +14,8 @@ n_seeds = 50
 T = 1.0
 
 lpn_type = -1 # energy
-lpn_log_deltas = [-6.0, -5.0, -4.0, -3.0]
-Ts = [1, 2]
+lpn_log_deltas = [-6.0, -5.0, -4.0]
+Ts = [1, 2, 5]
 
 vio = go.Figure()
 for T in Ts:
@@ -31,7 +31,7 @@ for T in Ts:
         add_violin_trace(vio, les.loc[:, 'mean'], fr"$\log_{{{10}}}\Delta={{{log_delta}}}$", x=les.loc[:, 'period'], showlegend=showlegend)
 
 add_layout(vio, "", fr"$\lambda$", f"")
-vio.update_layout({'colorway': ['blue', 'red', 'green', 'orange']})
+vio.update_layout({'colorway': ['blue', 'red', 'green']})
 save_figure(vio, f"{path}/lambda_N({N})_numSeeds({n_seeds})_alpha({alpha:0.4f})_lpn({lpn_type})_vio")
 
 

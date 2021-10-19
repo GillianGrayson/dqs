@@ -12,13 +12,12 @@ path = f"E:/YandexDisk/Work/os_lnd/draft/mbl/2/figures/integrable/lambda"
 N = 7
 tau = 1
 k = -1
-alpha = 0.5
 n_seeds = 50
 T = 1.0
 
 lpn_type = 0
 lpn_log_deltas = [-6.0, -5.0, -4.0]
-Ts = [1]
+Ts = [1, 2, 5]
 
 vio = go.Figure()
 for T in Ts:
@@ -34,8 +33,9 @@ for T in Ts:
         add_violin_trace(vio, les.loc[:, 'mean'], fr"$\log_{{{10}}}\Delta={{{log_delta}}}$", x=les.loc[:, 'period'], showlegend=showlegend)
 
 add_layout(vio, "", fr"$\lambda$", f"")
-vio.update_layout({'colorway': ['blue', 'red', 'green', 'orange']})
-save_figure(vio, f"{path}/lambda_N({N})_numSeeds({n_seeds})_alpha({alpha:0.4f})_lpn({lpn_type})_vio")
+vio.update_layout({'colorway': ['blue', 'red', 'green']})
+vio.update_traces(opacity=0.5, selector=dict(type='violin'))
+save_figure(vio, f"{path}/lambda_N({N})_numSeeds({n_seeds})_tau({tau:d})_k({k:d})_lpn({lpn_type})_vio")
 
 
 
