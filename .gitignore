@@ -153,3 +153,5 @@ scripts/netket/mbl/cluster/output/
 *.pdf
 
 *.png
+
+*.asv

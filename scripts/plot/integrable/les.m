@@ -1,28 +1,30 @@
 clear all;
 addpath('../routines/matlab')
 
-N = 100;
-alpha = 0.5;
-n_seeds = 50;
+N = 7;
+tau = 1;
+k = -1;
+n_seeds = 1000;
 
-lpn_type = -1;
-lpn_log_deltas = [-6.0, -5.0, -4.0]';
-Ts = [1, 2, 5]';
+lpn_type = 0;
+lpn_log_deltas = [-6.0]';
+Ts = [5]';
 
-is_scaled = 1;
+is_scaled = 0;
 
-path = 'E:/YandexDisk/Work/os_lnd/draft/mbl/2/figures/lndham/lambda/100_100';
+path = 'E:/YandexDisk/Work/os_lnd/draft/mbl/2/figures/integrable/lambda/';
 
 fig = figure;
 
 for log_delta_id = 1:size(lpn_log_deltas, 1)
     fig = figure;
     for T_id = 1:size(Ts, 1)
-        fn = sprintf('%s/lambda_N(%d)_numSeeds(%d)_alpha(%0.4f)_T(%0.4f)_lpn(%d_%0.4f).csv', ...
+        fn = sprintf('%s/lambda_N(%d)_numSeeds(%d)_tau(%d)_k(%d)_T(%0.4f)_lpn(%d_%0.4f).csv', ...
             path, ...
             N, ...
             n_seeds, ...
-            alpha, ...
+            tau, ...
+            k, ...
             Ts(T_id), ...
             lpn_type, ...
             lpn_log_deltas(log_delta_id));
@@ -41,8 +43,10 @@ for log_delta_id = 1:size(lpn_log_deltas, 1)
         if is_scaled == 1
             pdf.x_label = '$\bar{\lambda}$';
         end
-        pdf.x_bin_s = min(lambdas);
-        pdf.x_bin_f = max(lambdas);
+        min_x = min(lambdas);
+        max_x = max(lambdas);
+        pdf.x_bin_s = -max(abs(min_x), abs(max_x));
+        pdf.x_bin_f = -pdf.x_bin_s;
         pdf = pdf_1d_setup(pdf);
         pdf = pdf_1d_update(pdf, lambdas);
         pdf = pdf_1d_release(pdf);
@@ -56,11 +60,12 @@ for log_delta_id = 1:size(lpn_log_deltas, 1)
         ylabel('$PDF$', 'Interpreter', 'latex');
         hold all;
     end
-    fn_fig = sprintf('%s/density_lambda_N(%d)_numSeeds(%d)_alpha(%0.4f)_lpn(%d_%0.4f)', ...
+    fn_fig = sprintf('%s/density_lambda_N(%d)_numSeeds(%d)_tau(%d)_k(%d)_lpn(%d_%0.4f)', ...
         path, ...
         N, ...
         n_seeds, ...
-        alpha, ...
+        tau, ...
+        k, ...
         lpn_type, ...
         lpn_log_deltas(log_delta_id));
     if is_scaled == 1
