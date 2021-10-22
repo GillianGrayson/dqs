@@ -14,10 +14,17 @@ is_scaled = 0;
 
 path = 'E:/YandexDisk/Work/os_lnd/draft/mbl/2/figures/integrable/lambda/';
 
-fig = figure;
-
 for log_delta_id = 1:size(lpn_log_deltas, 1)
     fig = figure;
+    
+    if is_scaled == 1
+        x = [-5:.01:5];
+        y = normpdf(x,0,1);
+        h = plot(x, y, 'LineWidth', 5);
+        legend(h, sprintf('Normal Distribution'));
+        hold all;
+    end
+    
     for T_id = 1:size(Ts, 1)
         fn = sprintf('%s/lambda_N(%d)_numSeeds(%d)_tau(%d)_k(%d)_T(%0.4f)_lpn(%d_%0.4f).csv', ...
             path, ...
@@ -37,6 +44,10 @@ for log_delta_id = 1:size(lpn_log_deltas, 1)
             std_lambdas = std(lambdas);
             lambdas = (lambdas - mean_lambdas) / std(lambdas);
         end
+        
+        [h, p, jbstat, critval] = jbtest(lambdas)
+        [h, p, kstat, critval] = lillietest(lambdas)
+        [h, p, adstat, cv] = adtest(lambdas)
         
         pdf.x_num_bins = 100;
         pdf.x_label = '$\lambda$';
@@ -60,6 +71,7 @@ for log_delta_id = 1:size(lpn_log_deltas, 1)
         ylabel('$PDF$', 'Interpreter', 'latex');
         hold all;
     end
+    
     fn_fig = sprintf('%s/density_lambda_N(%d)_numSeeds(%d)_tau(%d)_k(%d)_lpn(%d_%0.4f)', ...
         path, ...
         N, ...
