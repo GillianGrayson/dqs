@@ -2,9 +2,9 @@ clear all;
 
 data_path = 'E:/YandexDisk/Work/qs/data/models/open/dimer/mean_field';
 
-U_start = 0.01;
-U_shift = 0.01;
-U_num = 50;
+U_start = 0.005;
+U_shift = 0.005;
+U_num = 100;
 A = 3.4 ;
 J = 1.0;
 
@@ -13,7 +13,7 @@ phase = 0.0;
 gamma = 0.1;
 
 npt = 100;
-np = 1000;
+np = 5000;
 
 N = 1000;
 
@@ -32,7 +32,7 @@ for U_id = 1 : U_num
     
     for seed = 1:seed_num
         
-       fn_suffix = sprintf('params(%0.4f_%0.4f_%0.4f)_mod(%0.4f_%0.4f_%0.4f)/lyaps.txt', ...
+       fn_suffix = sprintf('params(%0.4f_%0.4f_%0.4f)_mod(%0.4f_%0.4f_%0.4f)', ...
             J, ...
             U, ...
             gamma, ...
@@ -40,11 +40,11 @@ for U_id = 1 : U_num
             omega, ...
             phase);
         
-        fn = sprintf('%s/%s', data_path, fn_suffix);
-        data = importdata(fn);
+        fn = sprintf('%s/%s/lyaps.txt', data_path, fn_suffix);
+        data_lyaps = importdata(fn);
         
         for lpn_id = 1:num_lpns
-            lpn_exps(U_id, lpn_id) = lpn_exps(U_id, lpn_id) + mean(data(:, lpn_id)) / seed_num;
+            lpn_exps(U_id, lpn_id) = lpn_exps(U_id, lpn_id) + mean(data_lyaps(:, lpn_id)) / seed_num;
         end
         
     end
@@ -57,10 +57,13 @@ fig = figure;
 propertyeditor(fig);
 
 for lpn_id = 1:num_lpns
-    hLine = plot(Us, lpn_exps(:, lpn_id), 'LineWidth', 2);
-    legend(hLine, sprintf('\lambda #%d', lpn_id));
+    h = plot(Us, lpn_exps(:, lpn_id), 'LineWidth', 2);
+    h.Annotation.LegendInformation.IconDisplayStyle = 'off';
     hold all;
 end
+h = plot([Us(1), Us(end)], [0, 0],'black', 'LineStyle', ':', 'LineWidth', 2);
+h.Annotation.LegendInformation.IconDisplayStyle = 'off';
 
 set(gca, 'FontSize', 30);
 xlabel('$U$', 'Interpreter', 'latex');
+ylabel('$\lambda$', 'Interpreter', 'latex');
